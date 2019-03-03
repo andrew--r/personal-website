@@ -1,16 +1,22 @@
-const cacheBuster = require("@mightyplow/eleventy-plugin-cache-buster");
+const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster');
 
-module.exports = eleventyConfig => {
-  eleventyConfig.addPlugin(cacheBuster({}));
+const outputDirectory = 'build';
 
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+module.exports = (eleventyConfig) => {
+  eleventyConfig.addPlugin(
+    cacheBuster({
+      outputDirectory,
+    }),
+  );
+
+  eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
 
   return {
     dir: {
-      input: "source",
-      output: "build"
+      input: 'source',
+      output: outputDirectory,
     },
-    templateFormats: ["njk", "md", "css", "jpg"],
-    passthroughFileCopy: true
+    templateFormats: ['njk', 'md', 'css', 'jpg'],
+    passthroughFileCopy: true,
   };
 };
