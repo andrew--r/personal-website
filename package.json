@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "andreyromanov.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "eleventy --serve",
+    "prebuild": "rm -rf build",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew--r/andreyromanov.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew--r/andreyromanov.com/issues"
+  },
+  "homepage": "https://andreyromanov.com",
+  "devDependencies": {
+    "@11ty/eleventy": "0.7.1",
+    "@mightyplow/eleventy-plugin-cache-buster": "1.1.3"
+  }
+}
