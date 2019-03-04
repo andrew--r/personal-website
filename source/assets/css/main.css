@@ -12,7 +12,6 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: calc(16px + 0.5vw);
   line-height: 1.4;
-  padding: 1em;
 }
 
 * {
@@ -45,14 +44,36 @@ li {
   margin-top: 0.25em;
 }
 
+p {
+  margin-bottom: 1em;
+}
+
 /* Page */
 .page {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
   max-width: var(--site-width);
   margin: auto;
+  padding: calc(1em + 1vw);
+}
+
+.page__header,
+.page__footer {
+  flex: none;
 }
 
 .page__header {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
+}
+
+.page__content {
+  flex: 1 0 auto;
+}
+
+.page__footer {
+  margin-top: 4em;
 }
 
 /* Header */
@@ -73,6 +94,11 @@ li {
 
 .header__title {
   font-size: 1em;
+}
+
+/* Footer */
+.footer {
+  font-size: 16px;
 }
 
 /* Navigation */
