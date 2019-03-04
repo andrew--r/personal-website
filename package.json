@@ -5,8 +5,10 @@
   "description": "",
   "main": "",
   "scripts": {
+    "clean": "rm -rf build",
+    "prestart": "npm run clean",
     "start": "eleventy --serve",
-    "prebuild": "rm -rf build",
+    "prebuild": "npm run clean",
     "build": "eleventy"
   },
   "repository": {
