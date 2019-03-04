@@ -22,19 +22,30 @@ description: I live in Moscow (Russia) and work at Sticker.place. I’m passiona
 
   <body>
     <div class="page">
-    <header class="page__header header">
-      <img class="header__avatar" src="/assets/images/avatar.jpg" alt="Personal photo">
+      <header class="page__header header">
+        <img class="header__avatar" src="/assets/images/avatar.jpg" alt="Personal photo">
 
-      <div class="header__content">
-        <h1 class="header__title">Andrey Romanov</h1>
-        <nav>
-          <ul class="navigation">
-            <li class="navigation__item"><a href="/">About</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-      {{ content | safe }}
+        <div class="header__content">
+          <h1 class="header__title">Andrey Romanov</h1>
+          <nav>
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/">About</a></li>
+              <li class="navigation__item"><a href="/timeline">Timeline</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page__content">
+        {{ content | safe }}
+      </main>
+
+      <footer class="page__footer footer">
+        <ul class="navigation">
+          <li class="navigation__item"><a href="https://github.com/andrew--r">GitHub</a></li>
+          <li class="navigation__item"><a href="https://t.me/andrew_r">Telegram</a></li>
+        </ul>
+      </footer>
     </div>
   </body>
 
