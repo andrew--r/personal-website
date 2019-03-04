@@ -1,5 +1,6 @@
 ---
 title: Andrey Romanov, front-end web developer
+description: I live in Moscow (Russia) and work at Sticker.place. I’m passionate about design and music.
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,14 +10,20 @@ title: Andrey Romanov, front-end web developer
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
 
-    <link rel="stylesheet" href="/css/main.css">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
 
   <body>
     <div class="page">
     <header class="page__header header">
-      <img class="header__avatar" src="/avatar.jpg" alt="Personal photo">
+      <img class="header__avatar" src="/assets/images/avatar.jpg" alt="Personal photo">
 
       <div class="header__content">
         <h1 class="header__title">Andrey Romanov</h1>
