@@ -10,13 +10,13 @@ module.exports = (eleventyConfig) => {
   );
 
   eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
+  eleventyConfig.addPassthroughCopy('source/assets');
 
   return {
     dir: {
       input: 'source',
       output: outputDirectory,
     },
-    templateFormats: ['njk', 'md', 'css', 'jpg'],
-    passthroughFileCopy: true,
+    templateFormats: ['njk', 'md'],
   };
 };
