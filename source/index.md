@@ -1,5 +1,6 @@
 ---
 layout: base
+title: About Andrey Romanov
 ---
 
 ## About

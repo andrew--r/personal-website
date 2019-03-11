@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Andrey’s timeline
+title: Timeline
 description: Lifetime visualization. Each cell represents one week. There are 52 weeks in each row, which equals 1 year. Past weeks are automatically painted in red.
 ---
 

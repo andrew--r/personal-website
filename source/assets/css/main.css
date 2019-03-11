@@ -41,7 +41,7 @@ ul {
 }
 
 li {
-  margin-top: 0.25em;
+  margin-top: 0.5em;
 }
 
 p {
@@ -99,6 +99,8 @@ p {
 /* Footer */
 .footer {
   font-size: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 1em;
 }
 
 /* Navigation */
@@ -111,4 +113,9 @@ p {
 .navigation__item {
   display: inline-block;
   margin-right: 0.5em;
+}
+
+/* Page content */
+.page__content ul {
+  padding-left: 1em;
 }
