@@ -119,3 +119,15 @@ p {
 .page__content ul {
   padding-left: 1em;
 }
+
+.page__content h2:not(:first-child),
+.page__content h3:not(:first-child),
+.page__content p:not(:first-child),
+.page__content img:not(:first-child) {
+  margin-top: 1em;
+}
+
+.page__content img {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
