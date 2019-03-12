@@ -1,12 +1,11 @@
 ---
-layout: base
+layout: layouts/note
+tags: note
 title: Date and time formatting in browser
 description: Use Intl.DateTimeFormat instead of manual formatting with third-party libraries.
+coverUrl: assets/cover.png
+publicationDate: 2019-03-11
 ---
-
-![](assets/cover.png)
-
-## Date and time formatting in browser
 
 Don’t use third-party libraries to manually format dates and time in browser. Correct format depends on user’s locale: russians use to see 11.03.2019, whereas englishmen use to see 3/11/2019.
 

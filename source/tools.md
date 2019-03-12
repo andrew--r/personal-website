@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: layouts/base
 title: Tools
 description: What makes Andrey’s life a bit easier
 ---

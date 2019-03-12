@@ -1,4 +1,6 @@
 const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster');
+const { addNunjucksFilters } = require('./eleventy/nunjucks-fitlers');
+const { addNunjucksShortcodes } = require('./eleventy/nunjucks-shortcodes');
 
 const outputDirectory = 'build';
 
@@ -8,9 +10,9 @@ module.exports = (eleventyConfig) => {
       outputDirectory,
     }),
   );
-
-  eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
   eleventyConfig.addPassthroughCopy('source/assets');
+  addNunjucksFilters(eleventyConfig);
+  addNunjucksShortcodes(eleventyConfig);
 
   return {
     dir: {
