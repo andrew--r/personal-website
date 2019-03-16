@@ -4,7 +4,7 @@ title: Notes
 description: Andrey’s thoughts on everything
 ---
 
-{% for year, notes in collections.note | groupByPublicationYear %}
+{% for year, notes in collections.notes | groupByPublicationYear %}
 <section class="notes__section">
   <h2>{{ year }}</h2>
 

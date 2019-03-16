@@ -1,6 +1,6 @@
 ---
 layout: layouts/note
-tags: note
+tags: notes
 title: Date and time formatting in browser
 description: Use Intl.DateTimeFormat instead of manual formatting with third-party libraries.
 coverUrl: assets/cover.png
