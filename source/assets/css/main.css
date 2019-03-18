@@ -140,11 +140,6 @@ li {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Notes */
-.notes__section + .notes__section {
-  margin-top: calc(var(--typo-baseline) * 2);
-}
-
 /* Article */
 .article__header time {
   color: var(--color-text-muted);
@@ -152,4 +147,9 @@ li {
 
 .article__header h2 {
   margin-top: 0;
+}
+
+/* Text */
+.text_muted {
+  color: var(--color-text-muted);
 }
