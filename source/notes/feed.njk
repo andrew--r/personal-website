@@ -1,30 +1,22 @@
 ---
 permalink: notes/feed.xml
-metadata:
-  title: Andrey’s notes
-  url: http://andreyromanov.com/notes
-  author:
-    name: Andrey Romanov
-    email: me@andrew-r.ru
-  feed:
-    subtitle: Andrey’s thoughts on everything
-    url: https://andreyromanov.com/notes/feed.xml
-    id: https://andreyromanov.com/notes
 ---
+{% set feedSourceUrl = site.url + "/notes" %}
+{% set feedUrl = feedSourceUrl + "/feed.xml" %}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
-  <link href="{{ metadata.feed.url }}" rel="self"/>
-  <link href="{{ metadata.url }}"/>
+  <title>Andrey’s notes</title>
+  <subtitle>Andrey’s thoughts on everything</subtitle>
+  <link href="{{ feedUrl }}" rel="self"/>
+  <link href="{{ feedSourceUrl }}"/>
   <updated>{{ collections.notes | rssLastUpdatedDate }}</updated>
-  <id>{{ metadata.feed.id }}</id>
+  <id>{{ feedSourceUrl }}</id>
   <author>
-    <name>{{ metadata.author.name }}</name>
-    <email>{{ metadata.author.email }}</email>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
   </author>
   {%- for post in collections.notes %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(site.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>

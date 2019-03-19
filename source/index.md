@@ -1,6 +1,6 @@
 ---
 layout: layouts/base
-title: About Andrey Romanov
+title: Andrey Romanov
 ---
 
 ## About
