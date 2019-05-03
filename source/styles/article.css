@@ -1,0 +1,7 @@
+.article__header time {
+  color: var(--color-text-muted);
+}
+
+.article__header h2 {
+  margin-top: 0;
+}

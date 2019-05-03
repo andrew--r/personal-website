@@ -1,0 +1,13 @@
+:root {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: var(--typo-font-family);
+  font-size: var(--typo-font-size);
+  line-height: var(--typo-line-height);
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}

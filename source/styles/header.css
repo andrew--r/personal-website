@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__avatar {
+  display: block;
+  width: calc(var(--typo-baseline) * 2);
+  height: calc(var(--typo-baseline) * 2);
+  margin-right: calc(var(--typo-baseline) * 0.75);
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.header__title {
+  margin-bottom: 0.25em;
+  font-size: 1em;
+}

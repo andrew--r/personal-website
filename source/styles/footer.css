@@ -1,0 +1,5 @@
+.footer {
+  padding-top: var(--typo-baseline);
+  font-size: calc(--typo-size-s);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}

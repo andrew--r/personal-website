@@ -1,0 +1,14 @@
+.navigation {
+  font-size: 0.75em;
+}
+
+.navigation,
+.navigation__item {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-right: 0.5em;
+}
