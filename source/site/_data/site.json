@@ -3,5 +3,27 @@
   "author": {
     "name": "Andrey Romanov",
     "email": "me@andrew-r.ru"
-  }
+  },
+  "navigationLinks": [
+    {
+      "url": "/",
+      "title": "About"
+    },
+    {
+      "url": "/notes/",
+      "title": "Notes"
+    },
+    {
+      "url": "/books/",
+      "title": "Books"
+    },
+    {
+      "url": "/tools/",
+      "title": "Tools"
+    },
+    {
+      "url": "/timeline/",
+      "title": "Timeline"
+    }
+  ]
 }

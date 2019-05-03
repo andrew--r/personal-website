@@ -33,11 +33,16 @@ description: I live in Moscow (Russia) and work at Sticker.place. I’m passiona
           <h1 class="header__title">Andrey Romanov</h1>
           <nav>
             <ul class="navigation">
-              <li class="navigation__item"><a href="/">About</a></li>
-              <li class="navigation__item"><a href="/notes">Notes</a></li>
-              <li class="navigation__item"><a href="/books">Books</a></li>
-              <li class="navigation__item"><a href="/tools">Tools</a></li>
-              <li class="navigation__item"><a href="/timeline">Timeline</a></li>
+              {% for navigationLink in site.navigationLinks %}
+                <li class="navigation__item">
+                  <a
+                    class="link{% if page.url === navigationLink.url %} link_active{%endif%}"
+                    href="{{navigationLink.url}}"
+                  >
+                    {{navigationLink.title}}
+                  </a>
+                </li>
+              {% endfor %}
             </ul>
           </nav>
         </div>
@@ -52,7 +57,7 @@ description: I live in Moscow (Russia) and work at Sticker.place. I’m passiona
           <li class="navigation__item"><a href="https://github.com/andrew--r">GitHub</a></li>
           <li class="navigation__item"><a href="https://twitter.com/andrew__romanov">Twitter</a></li>
           <li class="navigation__item"><a href="https://t.me/andrew_r">Telegram</a></li>
-          <li class="navigation__item"><a href="{{site.url }}/notes/feed.xml">RSS</a></li>
+          <li class="navigation__item"><a href="{{site.url}}/notes/feed.xml">RSS</a></li>
         </ul>
       </footer>
     </div>
