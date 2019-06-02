@@ -4,6 +4,8 @@ title: Tools
 description: What makes Andrey’s life a bit easier
 ---
 
+<div class="content">
+
 ## Tools
 
 What makes my life a bit easier:
@@ -21,3 +23,5 @@ What makes my life a bit easier:
 * [Firefox](https://www.mozilla.org/firefox/) as a browser
 * [OpenOffice](https://www.openoffice.org/) and [Google Docs](https://docs.google.com) as an office suite
 * [Cryptomator](http://cryptomator.org/) as a file encryption software
+
+</div>

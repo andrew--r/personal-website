@@ -5,16 +5,16 @@ layout: layouts/base
 <article class="article" itemtype="http://schema.org/BlogPosting" itemscope="">
   <header class="article__header">
     {% if coverUrl %}
-    <img src="{{ coverUrl }}" alt="">
+    <img class="article__cover" src="{{ coverUrl }}" alt="">
     {% endif %}
 
-    <time datetime="{{ publicationDate | dateToIsoString }}" itemprop="datePublished">
+    <time class="article__time" datetime="{{ publicationDate | dateToIsoString }}" itemprop="datePublished">
       {% formattedDate publicationDate %}
     </time>
-    <h2 itemprop="name headline">{{ title }}</h2>
+    <h2 class="article__title" itemprop="name headline">{{ title }}</h2>
   </header>
 
-  <div itemprop="articleBody">
+  <div class="content" itemprop="articleBody">
     {{ content | safe }}
   </div>
 </article>

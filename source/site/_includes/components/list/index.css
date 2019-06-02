@@ -1,0 +1,10 @@
+.list,
+.content ul {
+  margin: var(--typo-baseline) 0;
+  padding-left: 1em;
+}
+
+.list__item,
+.content li {
+  margin-top: calc(0.5em * var(--typo-line-height));
+}

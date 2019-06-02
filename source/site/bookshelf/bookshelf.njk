@@ -1,0 +1,14 @@
+---
+layout: layouts/base
+title: Bookshelf
+description: Andrey’s bookshelf
+---
+{% from "components/book/index.njk" import bookCard %}
+
+<div class="content">
+  <h2>Bookshelf</h2>
+</div>
+
+{% for book in bookshelf.read %}
+{{ bookCard(book) }}
+{% endfor %}

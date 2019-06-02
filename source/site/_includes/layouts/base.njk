@@ -2,6 +2,9 @@
 title: Andrey Romanov, front-end web developer
 description: I live in Moscow (Russia) and work at Sticker.place. I’m passionate about design and music.
 ---
+{% from "components/header/index.njk" import header %}
+{% from "components/footer/index.njk" import footer %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,40 +29,13 @@ description: I live in Moscow (Russia) and work at Sticker.place. I’m passiona
 
   <body>
     <div class="page">
-      <header class="page__header header">
-        <img class="header__avatar" src="/assets/images/avatar.jpg" alt="Personal photo">
-
-        <div class="header__content">
-          <h1 class="header__title">Andrey Romanov</h1>
-          <nav>
-            <ul class="navigation">
-              {% for navigationLink in site.navigationLinks %}
-                <li class="navigation__item">
-                  <a
-                    class="link{% if page.url === navigationLink.url %} link_active{%endif%}"
-                    href="{{navigationLink.url}}"
-                  >
-                    {{navigationLink.title}}
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
-          </nav>
-        </div>
-      </header>
+      {{ header(class='page__header', page=page, site=site) }}
 
       <main class="page__content">
         {{ content | safe }}
       </main>
 
-      <footer class="page__footer footer">
-        <ul class="navigation">
-          <li class="navigation__item"><a href="https://github.com/andrew--r">GitHub</a></li>
-          <li class="navigation__item"><a href="https://twitter.com/andrew__romanov">Twitter</a></li>
-          <li class="navigation__item"><a href="https://t.me/andrew_r">Telegram</a></li>
-          <li class="navigation__item"><a href="{{site.url}}/notes/feed.xml">RSS</a></li>
-        </ul>
-      </footer>
+      {{ footer(class='page__footer', site=site) }}
     </div>
   </body>
 

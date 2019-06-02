@@ -1,0 +1,9 @@
+{% macro bookCard(book) %}
+<section class="book">
+  <h3 class="book__title">{{ book.title }}</h3>
+  <div class="text_muted text_size_s">by {{ book.author }}</div>
+  {% if book.review %}
+  <p class="book__review">{{ book.review }}</p>
+  {% endif %}
+</section>
+{% endmacro %}

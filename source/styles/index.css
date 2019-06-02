@@ -1,10 +1,5 @@
-@import './design-tokens.css';
+@import './design-tokens/**/*.css';
 @import './base.css';
 @import './typography.css';
 @import './links.css';
-@import './header.css';
-@import './footer.css';
-@import './page.css';
-@import './navigation.css';
-@import './article.css';
-@import './text.css';
+@import '../site/_includes/components/**/*.css';

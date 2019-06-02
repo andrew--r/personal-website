@@ -1,0 +1,23 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  max-width: var(--site-width);
+  margin: auto;
+  padding: var(--typo-baseline);
+}
+
+.page__header,
+.page__footer {
+  flex: none;
+}
+
+.page__content {
+  flex: 1 0 auto;
+  padding: calc(var(--typo-baseline) * 3) 0;
+}
+
+.page__content :first-child {
+  margin-top: 0;
+}

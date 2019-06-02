@@ -4,18 +4,20 @@ title: Notes
 description: Andrey’s thoughts on everything
 ---
 
-<h2>Notes</h2>
+<div class="content">
+  <h2>Notes</h2>
 
-{% for year, notes in collections.notes | groupByPublicationYear %}
-<section>
-  <h3>{{ year }}</h3>
+  {% for year, notes in collections.notes | groupByPublicationYear %}
+  <section>
+    <h3>{{ year }}</h3>
 
-  <ul>
-    {% for note in notes %}
-    <li>
-      <a href="{{ note.url }}">{{ note.data.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endfor %}
+    <ul>
+      {% for note in notes %}
+      <li>
+        <a href="{{ note.url }}">{{ note.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

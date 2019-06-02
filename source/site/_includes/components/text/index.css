@@ -1,0 +1,19 @@
+.text_muted {
+  color: var(--color-text-muted);
+}
+
+.text_size_s {
+  font-size: var(--typo-size-s);
+}
+
+.text_size_m {
+  font-size: var(--typo-size-m);
+}
+
+.text_size_l {
+  font-size: var(--typo-size-l);
+}
+
+.text_size_xl {
+  font-size: var(--typo-size-xl);
+}

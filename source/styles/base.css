@@ -1,13 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* font: inherit; */
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   height: 100%;
   box-sizing: border-box;
   font-family: var(--typo-font-family);
-  font-size: var(--typo-font-size);
+  font-size: var(--typo-size-m);
   line-height: var(--typo-line-height);
 }
 
-* {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
+img {
+  display: block;
+  max-width: 100%;
 }

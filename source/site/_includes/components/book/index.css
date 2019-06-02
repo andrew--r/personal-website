@@ -1,0 +1,11 @@
+.book {
+  margin: calc(var(--typo-baseline) * 2) 0;
+}
+
+.book__title {
+  margin: 0;
+}
+
+.book__review {
+  margin-top: calc(var(--typo-baseline) * 0.5);
+}
