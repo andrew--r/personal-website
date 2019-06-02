@@ -14,7 +14,7 @@ gulp.task('css', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(`${buildConfig.dir.source}/styles/**/*`, gulp.series('css'));
+  gulp.watch(`${buildConfig.dir.source}/**/*.css`, gulp.series('css'));
 });
 
 gulp.task('default', (done) => {
