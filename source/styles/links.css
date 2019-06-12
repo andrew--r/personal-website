@@ -10,10 +10,10 @@ a:not(.link_unstyled),
   text-decoration: underline;
 }
 
-a:not(.link_unstyled):matches(:hover, :focus, :active),
-.link:not(.link_unstyled):matches(:hover, :focus, :active, .link_active) {
+a:not(.link_unstyled):matches(:active),
+.link:not(.link_unstyled):matches(:active, .link_active) {
   text-decoration: none;
   background-color: var(--color-primary-light);
-  outline: 2px solid var(--color-primary-light);
+  outline: 3px solid var(--color-primary-light);
   color: #fff;
 }

@@ -20,3 +20,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
+*:focus {
+  outline: 3px solid var(--color-yellow) !important;
+}
