@@ -1,23 +1,22 @@
 {% macro header(class, page, site) %}
 <header class="header {{class}}">
-  <img class="header__avatar" src="/assets/images/avatar.jpg" alt="Personal photo">
+  <h1 class="header__title">
+    <a class="link link_unstyled" href="/">Andrey Romanov</a>
+  </h1>
 
-  <div class="header__content">
-    <h1 class="header__title">Andrey Romanov</h1>
-    <nav>
-      <ul class="navigation">
-        {% for navigationLink in site.navigationLinks %}
-          <li class="navigation__item">
-            <a
-              class="link{% if page.url === navigationLink.url %} link_active{%endif%}"
-              href="{{navigationLink.url}}"
-            >
-              {{navigationLink.title}}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
+  <nav>
+    <ul class="navigation">
+      {% for navigationLink in site.navigationLinks %}
+        <li class="navigation__item">
+          <a
+            class="link{% if page.url === navigationLink.url %} link_active{%endif%}"
+            href="{{navigationLink.url}}"
+          >
+            {{navigationLink.title}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>
 {% endmacro %}

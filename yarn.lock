@@ -1043,6 +1043,11 @@ css@2.X, css@^2.2.1:
     source-map-resolve "^0.5.2"
     urix "^0.1.0"
 
+cssesc@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-2.0.0.tgz#3b13bd1bb1cb36e1bcb5a4dcd27f54c5dcb35703"
+  integrity sha512-MsCAG1z9lPdoO/IUMLSBWBSVxVtJ1395VGIQ+Fc2gNdkQ1hNDnQdw3YhA71WJCBW1vdwA0cAnk/DnW6bqoEUYg==
+
 csso@~3.3.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/csso/-/csso-3.3.1.tgz#e069a8f52adcf53685a8a7374256ccbc22c6ce3e"
@@ -3933,6 +3938,14 @@ postcss-load-config@^2.0.0:
     cosmiconfig "^5.0.0"
     import-cwd "^2.0.0"
 
+postcss-nested@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-4.1.2.tgz#8e0570f736bfb4be5136e31901bf2380b819a561"
+  integrity sha512-9bQFr2TezohU3KRSu9f6sfecXmf/x6RXDedl8CHF6fyuyVW7UqgNMRdWMHZQWuFY6Xqs2NYk+Fj4Z4vSOf7PQg==
+  dependencies:
+    postcss "^7.0.14"
+    postcss-selector-parser "^5.0.0"
+
 postcss-selector-matches@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/postcss-selector-matches/-/postcss-selector-matches-4.0.0.tgz#71c8248f917ba2cc93037c9637ee09c64436fcff"
@@ -3940,6 +3953,15 @@ postcss-selector-matches@4.0.0:
   dependencies:
     balanced-match "^1.0.0"
     postcss "^7.0.2"
+
+postcss-selector-parser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-5.0.0.tgz#249044356697b33b64f1a8f7c80922dddee7195c"
+  integrity sha512-w+zLE5Jhg6Liz8+rQOWEAwtwkyqpfnmsinXjXg6cY7YIONZZtgvE0v2O0uhQBs0peNomOJwWRKt6JBfTdTd3OQ==
+  dependencies:
+    cssesc "^2.0.0"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
 
 postcss-value-parser@^3.2.3:
   version "3.3.1"
@@ -3964,7 +3986,7 @@ postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.11:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.2:
+postcss@^7.0.14, postcss@^7.0.2:
   version "7.0.17"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.17.tgz#4da1bdff5322d4a0acaab4d87f3e782436bad31f"
   integrity sha512-546ZowA+KZ3OasvQZHsbuEpysvwTZNGJv9EfyCQdsIDltPSWHAeTQ5fQy/Npi2ZDtLI3zs7Ps/p6wThErhm9fQ==

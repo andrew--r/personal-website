@@ -13,6 +13,7 @@
   font-family: var(--typo-font-family);
   font-size: var(--typo-size-m);
   line-height: var(--typo-line-height);
+  overflow-y: scroll;
 }
 
 img {

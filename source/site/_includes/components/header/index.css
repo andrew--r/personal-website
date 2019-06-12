@@ -1,18 +1,20 @@
 .header {
-  display: flex;
-  align-items: center;
-}
+  padding: 1em 0 0.875em;
+  font-size: var(--typo-size-s);
+  border-bottom: 1px solid var(--color-border);
 
-.header__avatar {
-  display: block;
-  width: calc(var(--typo-baseline) * 2);
-  height: calc(var(--typo-baseline) * 2);
-  margin-right: calc(var(--typo-baseline) * 0.75);
-  object-fit: cover;
-  border-radius: 100%;
+  @media (min-width: 48em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .header__title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-size: 1em;
+
+  @media (min-width: 48em) {
+    margin-bottom: 0;
+  }
 }

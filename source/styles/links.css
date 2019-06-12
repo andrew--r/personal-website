@@ -1,16 +1,17 @@
-a,
-.link {
+.link_unstyled,
+.link_unstyled:matches(:hover, :focus, :active, :visited) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not(.link_unstyled),
+.link:not(.link_unstyled) {
   color: var(--color-primary);
   text-decoration: underline;
 }
 
-a:hover,
-a:focus,
-a:active,
-.link:hover,
-.link:focus,
-.link:active,
-.link_active {
+a:not(.link_unstyled):matches(:hover, :focus, :active),
+.link:not(.link_unstyled):matches(:hover, :focus, :active, .link_active) {
   text-decoration: none;
   background-color: var(--color-primary-light);
   outline: 2px solid var(--color-primary-light);
