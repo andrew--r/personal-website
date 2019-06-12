@@ -15,7 +15,7 @@
 
 .page__content {
   flex: 1 0 auto;
-  padding: calc(var(--typo-baseline) * 3) 0;
+  padding: var(--typo-baseline) 0;
 }
 
 .page__content :first-child {

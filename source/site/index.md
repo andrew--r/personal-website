@@ -5,7 +5,9 @@ title: Andrey Romanov
 
 <div class="content">
 
-  ## About
+  <h2 class="visuallyhidden">About</h2>
+
+  ![Personal photo](/assets/images/personal-photo.jpg)
 
   Hi! I’m a front-end web developer. I live in ~~Omsk~~ → Moscow (Russia) and work at ~~Innova~~ → ~~Avito~~ → ~~Sticker.place~~ → Joom. I’m passionate about design and music.
 

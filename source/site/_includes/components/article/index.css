@@ -1,6 +1,6 @@
 .article__cover {
   margin-bottom: var(--typo-baseline);
-  border: 1px solid var(--color-border);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .article__time {
