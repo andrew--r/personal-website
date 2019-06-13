@@ -25,6 +25,7 @@
   "devDependencies": {
     "@11ty/eleventy": "0.7.1",
     "@11ty/eleventy-plugin-rss": "1.0.6",
+    "autoprefixer": "9.6.0",
     "gulp": "4.0.1",
     "gulp-postcss": "8.0.0",
     "gulp-sourcemaps": "2.6.5",
