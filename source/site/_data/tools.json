@@ -1,0 +1,54 @@
+[
+  {
+    "name": "VS Code",
+    "url": "https://code.visualstudio.com"
+  },
+  {
+    "name": "Hyper",
+    "url": "https://hyper.is/"
+  },
+  {
+    "name": "Prettier",
+    "url": "https://prettier.io"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com"
+  },
+  {
+    "name": "Amplifr",
+    "url": "https://amplifr.com"
+  },
+  {
+    "name": "Blogtrottr",
+    "url": "https://blogtrottr.com"
+  },
+  {
+    "name": "Dynalist",
+    "url": "http://dynalist.io/"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so"
+  },
+  {
+    "name": "NordVPN",
+    "url": "https://nordvpn.com"
+  },
+  {
+    "name": "KeePassX",
+    "url": "https://www.keepassx.org/"
+  },
+  {
+    "name": "Firefox",
+    "url": "https://www.mozilla.org/firefox/"
+  },
+  {
+    "name": "OpenOffice",
+    "url": "https://www.openoffice.org/"
+  },
+  {
+    "name": "Cryptomator",
+    "url": "http://cryptomator.org/"
+  }
+]

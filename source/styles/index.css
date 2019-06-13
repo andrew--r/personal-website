@@ -2,4 +2,4 @@
 @import './base.css';
 @import './typography.css';
 @import './links.css';
-@import '../site/_includes/components/**/*.css';
+@import '../site/**/*.css';

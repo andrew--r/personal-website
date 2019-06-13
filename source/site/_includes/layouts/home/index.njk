@@ -1,0 +1,37 @@
+---
+layout: layouts/base
+---
+{% from "components/timeline/index.njk" import timeline %}
+
+<div class="page-home">
+  <h2 class="visuallyhidden">About</h2>
+
+  <div class="page-home__main content">
+    <p><img src="/assets/images/personal-photo.jpg" alt="Personal photo"></p>
+
+    <p>Hi! I’m a front-end web developer. I live in <s>Omsk</s> → Moscow (Russia) and work at <s>Innova</s> → <s>Avito</s> → <s>Sticker.place</s> → Joom. I’m passionate about design and music.</p>
+
+    <h2>What I made</h2>
+
+    <ul>
+      <li><a href="https://forwebdev.ru">For Web</a>, one of the largest russian front-end news aggregators</li>
+      <li><a href="https://github.com/andrew--r/frontend-case-studies">frontend case studies</a>, a curated list of technical talks and articles about real world enterprise frontend development</li>
+      <li><a href="https://github.com/andrew--r/channels">channels</a>, a collection of useful YouTube channels for javascript developers and web designers</li>
+    </ul>
+  </div>
+
+  <aside class="page-home__aside content">
+    <section>
+      <h2>Tools</h2>
+      {% set comma = joiner() %}
+      <p>What makes my life a bit easier: {% for tool in tools %}{{ comma() }} <a href="{{ tool.url }}">{{ tool.name }}</a>{% endfor %}</p>
+    </section>
+
+    <section>
+      <h2>Timeline</h2>
+      <p>Lifetime visualization. Each cell represents one week. There are 52&nbsp;weeks in&nbsp;each row, which equals 1&nbsp;year. Past weeks are painted in&nbsp;red.</p>
+      {{ timeline() }}
+    </section>
+  </aside>
+
+</div>

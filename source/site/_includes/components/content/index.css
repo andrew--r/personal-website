@@ -5,9 +5,9 @@
   margin: var(--typo-baseline) 0;
 }
 
-.content :matches(h2, h3) + :matches(p, ul),
+.content :matches(h2, h3):not(.visuallyhidden) + :matches(p, ul),
 .content p + ul {
-  margin-top: calc(var(--typo-baseline) * -0.5);
+  margin-top: calc(var(--typo-baseline) * -0.875);
 }
 
 .content img {

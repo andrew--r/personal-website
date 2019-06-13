@@ -16,14 +16,6 @@
     {
       "url": "/bookshelf/",
       "title": "Bookshelf"
-    },
-    {
-      "url": "/tools/",
-      "title": "Tools"
-    },
-    {
-      "url": "/timeline/",
-      "title": "Timeline"
     }
   ]
 }

@@ -1,0 +1,20 @@
+.page-home {
+  @media (min-width: 48em) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.page-home__main {
+  @media (min-width: 48em) {
+    flex: 1 1 auto;
+  }
+}
+
+.page-home__aside {
+  @media (min-width: 48em) {
+    flex: 0 0 30%;
+    padding-left: 4em;
+    font-size: var(--typo-size-s);
+  }
+}
