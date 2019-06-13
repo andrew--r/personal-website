@@ -13,7 +13,7 @@
 
 .page-home__aside {
   @media (min-width: 48em) {
-    flex: 0 0 30%;
+    flex: 1 1 var(--readable-line-width);
     padding-left: 4em;
     font-size: var(--typo-size-s);
   }
