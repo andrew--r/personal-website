@@ -14,6 +14,6 @@ a:not(.link_unstyled):matches(:active),
 .link:not(.link_unstyled):matches(:active, .link_active) {
   text-decoration: none;
   background-color: var(--color-primary-light);
-  outline: 3px solid var(--color-primary-light);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
   color: #fff;
 }

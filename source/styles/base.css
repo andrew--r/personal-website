@@ -21,6 +21,10 @@ img {
   max-width: 100%;
 }
 
-*:focus {
-  outline: 3px solid var(--color-yellow) !important;
+:focus {
+  outline: 3px solid var(--color-yellow);
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
 }
