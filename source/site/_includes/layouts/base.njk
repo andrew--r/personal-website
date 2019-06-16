@@ -18,13 +18,19 @@ description: I live in Moscow (Russia) and work at Sticker.place. I’m passiona
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" content="{{ description }}">
+
     {% if coverUrl %}
-    <meta property="og:image" content="{{ coverUrl }}">
+      <meta property="og:image" content="{{ coverUrl }}">
     {% endif %}
 
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
     <link rel="stylesheet" href="/index.css">
-    <link rel="alternate" href="/notes/feed.xml" type="application/atom+xml" />
+
+    {% if alternates %}
+      {% for alternate in alternates %}
+        <link rel="alternate" href="{{ alternate.href }}" type="{{alternate.type}}" />
+      {%endfor%}
+    {% endif %}
 
     <script defer src="/assets/scripts/focus-visible.min.js"></script>
   </head>

@@ -1,8 +1,8 @@
 ---
-layout: layouts/note
-tags: notes
+layout: layouts/article
+tags: writing
 title: Date and time formatting in browser
-description: Use Intl.DateTimeFormat instead of manual formatting with third-party libraries.
+description: Use Intl.DateTimeFormat instead of third-party libraries for date formatting.
 coverUrl: assets/cover.png
 publicationDate: 2019-03-11
 ---

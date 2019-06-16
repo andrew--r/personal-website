@@ -1,0 +1,31 @@
+---json
+{
+  "layout": "layouts/base",
+  "title": "Writing",
+  "description": "Articles and notes on everything",
+  "alternates": [
+    {
+      "href": "feed.xml",
+      "type": "application/atom+xml"
+    }
+  ]
+}
+---
+
+<div class="content">
+  <h2>{{title}} <sup><a href="feed.xml">RSS</a></sup></h2>
+
+  {% for year, posts in collections.writing | groupByPublicationYear %}
+  <section>
+    <h3>{{ year }}</h3>
+
+    <ul>
+      {% for post in posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
