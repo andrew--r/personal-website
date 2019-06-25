@@ -5,7 +5,7 @@
 }
 
 .navigation {
-  --navigation-item-spacing: 0.5em;
+  --navigation-item-spacing: 1em;
 
   margin-bottom: calc(var(--navigation-item-spacing) * -1);
   font-size: 0.875em;
