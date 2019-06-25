@@ -1,6 +1,13 @@
 {
   "read": [
     {
+      "title": "Learning English",
+      "author": "Rakhim Davletkaliyev",
+      "year": 2019,
+      "review": "Brief and useful guide to setting up environment for learning english. No grammar rules, only methods, concepts and ideas to experiment with.",
+      "date": 1561150800000
+    },
+    {
       "title": "A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)",
       "author": "Barbara Oakley",
       "year": 2019,
