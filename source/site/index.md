@@ -3,7 +3,7 @@
   "layout": "layouts/home/index",
   "langAlternates": [
     {
-      "href": "http://andrew-r.ru",
+      "href": "https://andrew-r.ru",
       "lang": "ru"
     }
   ],
