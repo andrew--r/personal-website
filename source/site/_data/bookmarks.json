@@ -1,5 +1,11 @@
 [
   {
+    "tags": ["article", "reading", "learning"],
+    "timestamp": 1569091462558,
+    "title": "Everything I Knew About Reading Was Wrong",
+    "url": "https://hackernoon.com/everything-i-knew-about-reading-was-wrong-bde7e57fbfdc"
+  },
+  {
     "tags": ["programming", "concurrency", "parallelism", "golang", "video"],
     "timestamp": 1569076012175,
     "title": "Concurrency Is Not Parallelism",
