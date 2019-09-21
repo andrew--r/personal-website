@@ -1,0 +1,15 @@
+---
+layout: layouts/base
+title: Bookmarks
+description: Andrey’s bookmarks
+---
+{% from "components/bookmark/index.njk" import bookmarkView %}
+
+<div class="content">
+  <h2>Bookmarks</h2>
+  <p>Things I find worth sharing.</p>
+</div>
+
+{% for bookmark in bookmarks %}
+  {{ bookmarkView(bookmark) }}
+{% endfor %}
