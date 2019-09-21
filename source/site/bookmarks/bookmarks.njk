@@ -10,6 +10,6 @@ description: Andrey’s bookmarks
   <p>Things I find worth sharing.</p>
 </div>
 
-{% for bookmark in bookmarks %}
+{% for bookmark in bookmarks | sort(true, false, 'timestamp') %}
   {{ bookmarkView(bookmark) }}
 {% endfor %}
