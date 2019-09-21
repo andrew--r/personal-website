@@ -1,7 +1,7 @@
 .list,
-.content ul {
+.content :matches(ul, ol) {
   margin: var(--typo-baseline) 0;
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 
 .list__item,

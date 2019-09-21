@@ -5,7 +5,7 @@
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --typo-line-height: 1.4;
   --typo-size-s: calc(var(--typo-size-m) * 0.75);
-  --typo-size-m: calc(16px + 0.35vw);
+  --typo-size-m: calc(16px + 0.2vw);
   --typo-size-l: calc(var(--typo-size-m) * 1.25);
   --typo-size-xl: calc(var(--typo-size-m) * 1.5);
 }
