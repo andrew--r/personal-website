@@ -2,6 +2,12 @@
   margin: calc(var(--typo-baseline) * 2) 0;
 }
 
+.book__dropped {
+  color: #a00000;
+  font-weight: normal;
+  font-size: 0.75em;
+}
+
 .book__title {
   margin: 0;
 }
