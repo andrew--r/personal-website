@@ -44,15 +44,11 @@
     "url": "https://keepassxc.org"
   },
   {
-    "name": "Firefox",
-    "url": "https://www.mozilla.org/firefox/"
-  },
-  {
     "name": "OpenOffice",
     "url": "https://www.openoffice.org/"
   },
   {
-    "name": "Cryptomator",
-    "url": "http://cryptomator.org/"
+    "name": "YNAB",
+    "url": "https://www.youneedabudget.com"
   }
 ]
