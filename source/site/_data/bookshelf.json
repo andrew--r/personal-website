@@ -1,8 +1,18 @@
 [
   {
+    "author": "Stephen King",
+    "progress": {
+      "current": 126,
+      "total": 476
+    },
+    "state": "reading",
+    "title": "Mr. Mercedes",
+    "year": 2019
+  },
+  {
     "author": "Stephen Hawking",
     "progress": {
-      "current": 180,
+      "current": 206,
       "total": 269
     },
     "state": "reading",
