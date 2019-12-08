@@ -1,5 +1,11 @@
 [
   {
+    "tags": ["article", "psychology"],
+    "timestamp": 1575839804696,
+    "title": "Moving on",
+    "url": "https://justinjackson.ca/moving-on"
+  },
+  {
     "tags": ["statecharts", "finite state machines"],
     "timestamp": 1574799795657,
     "title": "Welcome to the world of Statecharts",
