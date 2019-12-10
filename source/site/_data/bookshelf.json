@@ -17,11 +17,7 @@
   },
   {
     "author": "Stephen Hawking",
-    "progress": {
-      "current": 226,
-      "total": 269
-    },
-    "state": "reading",
+    "state": "read",
     "title": "A Brief History of Time",
     "year": 2019
   },
