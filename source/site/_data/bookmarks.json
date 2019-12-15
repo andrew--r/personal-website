@@ -1,5 +1,11 @@
 [
   {
+    "tags": ["frontend", "architecture", "video"],
+    "timestamp": 1576436992668,
+    "title": "Архитектура фронтенда крупного проекта, как она есть",
+    "url": "https://youtu.be/J08UOAJdjWc"
+  },
+  {
     "tags": ["web", "URI"],
     "timestamp": 1576188784987,
     "title": "Cool URIs don't change",
