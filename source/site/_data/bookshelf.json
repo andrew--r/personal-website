@@ -1,8 +1,18 @@
 [
   {
+    "author": "James Kurose & Keith Ross",
+    "progress": {
+      "current": 33,
+      "total": 767
+    },
+    "state": "reading",
+    "title": "Computer Networking: A Top-Down Approach",
+    "year": 2019
+  },
+  {
     "author": "Steve Krug",
     "progress": {
-      "current": 52,
+      "current": 74,
       "total": 250
     },
     "state": "reading",
