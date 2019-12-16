@@ -5,7 +5,7 @@
   },
   {
     "name": "kitty",
-    "url": "https://sw.kovidgoyal.net/kitty/"
+    "url": "https://sw.kovidgoyal.net/kitty"
   },
   {
     "name": "Prettier",
@@ -25,11 +25,11 @@
   },
   {
     "name": "Things",
-    "url": "https://culturedcode.com/things/"
+    "url": "https://culturedcode.com/things"
   },
   {
     "name": "Dynalist",
-    "url": "http://dynalist.io/"
+    "url": "http://dynalist.io"
   },
   {
     "name": "Notion",
@@ -45,10 +45,18 @@
   },
   {
     "name": "OpenOffice",
-    "url": "https://www.openoffice.org/"
+    "url": "https://www.openoffice.org"
   },
   {
     "name": "YNAB",
     "url": "https://www.youneedabudget.com"
+  },
+  {
+    "name": "Fork",
+    "url": "https://git-fork.com"
+  },
+  {
+    "name": "Fastmail",
+    "url": "http://fastmail.com"
   }
 ]
