@@ -58,5 +58,9 @@
   {
     "name": "Fastmail",
     "url": "http://fastmail.com"
+  },
+  {
+    "name": "LICEcap",
+    "url": "https://www.cockos.com/licecap"
   }
 ]
