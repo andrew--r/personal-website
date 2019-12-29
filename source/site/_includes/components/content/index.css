@@ -10,10 +10,6 @@
   margin-top: calc(var(--typo-baseline) * -0.875);
 }
 
-.content img {
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-}
-
 .content blockquote {
   border-left: 3px solid var(--color-yellow);
   padding-left: 0.75em;

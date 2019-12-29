@@ -1,5 +1,5 @@
 @import './design-tokens/**/*.css';
 @import './base.css';
-@import './typography.css';
-@import './links.css';
+@import './focus-ring.css';
+@import './content/**/*.css';
 @import '../site/**/*.css';

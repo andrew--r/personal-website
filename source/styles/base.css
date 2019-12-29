@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* font: inherit; */
   margin: 0;
   padding: 0;
 }
@@ -10,21 +9,10 @@
 :root {
   height: 100%;
   box-sizing: border-box;
-  font-family: var(--typo-font-family);
-  font-size: var(--typo-size-m);
-  line-height: var(--typo-line-height);
   overflow-y: scroll;
 }
 
 img {
   display: block;
   max-width: 100%;
-}
-
-:focus {
-  outline: 3px solid var(--color-yellow);
-}
-
-.js-focus-visible :focus:not(.focus-visible) {
-  outline: none;
 }
