@@ -1,8 +1,18 @@
 [
   {
+    "author": "Victor Papanek",
+    "progress": {
+      "current": 32,
+      "total": 378
+    },
+    "state": "reading",
+    "title": "Design for the Real World",
+    "year": 2019
+  },
+  {
     "author": "James Kurose & Keith Ross",
     "progress": {
-      "current": 33,
+      "current": 36,
       "total": 767
     },
     "state": "reading",
@@ -12,7 +22,7 @@
   {
     "author": "Steve Krug",
     "progress": {
-      "current": 74,
+      "current": 96,
       "total": 250
     },
     "state": "reading",

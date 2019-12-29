@@ -1,5 +1,11 @@
 [
   {
+    "tags": ["security", "authentication", "2FA", "U2F", "webauthn"],
+    "timestamp": 1577208931930,
+    "title": "Getting started with security keys",
+    "url": "https://paulstamatiou.com/getting-started-with-security-keys/"
+  },
+  {
     "tags": ["communities", "censorship", "internet"],
     "timestamp": 1577208931930,
     "title": "Well-Kept Gardens Die By Pacifism",
