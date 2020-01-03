@@ -1,5 +1,21 @@
 [
   {
+    "author": "Yegor Bugayenko",
+    "progress": {
+      "current": 42,
+      "total": 223
+    },
+    "state": "reading",
+    "title": "Code Ahead",
+    "year": 2020
+  },
+  {
+    "author": "Animal Джаz",
+    "state": "read",
+    "title": "Зверский джаз навсегда",
+    "year": 2020
+  },
+  {
     "author": "Victor Papanek",
     "progress": {
       "current": 32,
@@ -7,7 +23,7 @@
     },
     "state": "reading",
     "title": "Design for the Real World",
-    "year": 2019
+    "year": 2020
   },
   {
     "author": "James Kurose & Keith Ross",
@@ -17,17 +33,17 @@
     },
     "state": "reading",
     "title": "Computer Networking: A Top-Down Approach",
-    "year": 2019
+    "year": 2020
   },
   {
     "author": "Steve Krug",
     "progress": {
-      "current": 124,
+      "current": 154,
       "total": 250
     },
     "state": "reading",
     "title": "Don’t Make Me Think",
-    "year": 2019
+    "year": 2020
   },
   {
     "author": "Stephen King",
