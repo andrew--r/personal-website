@@ -2,7 +2,7 @@
   {
     "author": "Yegor Bugayenko",
     "progress": {
-      "current": 42,
+      "current": 64,
       "total": 223
     },
     "state": "reading",
@@ -28,7 +28,7 @@
   {
     "author": "James Kurose & Keith Ross",
     "progress": {
-      "current": 36,
+      "current": 44,
       "total": 767
     },
     "state": "reading",
@@ -38,7 +38,7 @@
   {
     "author": "Steve Krug",
     "progress": {
-      "current": 154,
+      "current": 165,
       "total": 250
     },
     "state": "reading",
