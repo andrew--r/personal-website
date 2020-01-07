@@ -1,5 +1,11 @@
 [
   {
+    "author": "Pascal Laliberté",
+    "state": "read",
+    "title": "Modest JS Works",
+    "year": 2020
+  },
+  {
     "author": "Yegor Bugayenko",
     "progress": {
       "current": 64,

@@ -1,5 +1,11 @@
 [
   {
+    "tags": ["static sites", "simplicity", "minimalism"],
+    "timestamp": 1578403984968,
+    "title": "Your blog probably doesn’t need a static site generator",
+    "url": "https://zainamro.com/notes/your-blog-probably-doesnt-need-a-static-site-generator"
+  },
+  {
     "tags": ["security", "authentication", "2FA", "U2F", "webauthn"],
     "timestamp": 1577208931930,
     "title": "Getting started with security keys",
