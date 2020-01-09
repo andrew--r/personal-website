@@ -1,5 +1,23 @@
 [
   {
+    "tags": [],
+    "timestamp": 1578591452954,
+    "title": "Organizational Skills Beat Algorithmic Wizardry",
+    "url": "https://prog21.dadgum.com/177.html"
+  },
+  {
+    "tags": ["programming", "mindset"],
+    "timestamp": 1578591237717,
+    "title": "Write Code Like You Just Learned How to Program",
+    "url": "https://prog21.dadgum.com/87.html"
+  },
+  {
+    "tags": ["privacy"],
+    "timestamp": 1578591138127,
+    "title": "Why Privacy Matters Even if “You have nothing to hide”",
+    "url": "https://write.privacytools.io/privacy-simplified/why-privacy-matters-even-if-you-have-nothing-to-hide"
+  },
+  {
     "tags": ["static sites", "simplicity", "minimalism"],
     "timestamp": 1578403984968,
     "title": "Your blog probably doesn’t need a static site generator",
