@@ -1,13 +1,13 @@
 ---
 layout: layouts/base
 title: Bookmarks
-description: Andrey’s bookmarks
+description: Things I find worth sharing
 ---
 {% from "components/bookmark/index.njk" import bookmarkView %}
 
 <div class="content">
-  <h2>Bookmarks</h2>
-  <p>Things I find worth sharing.</p>
+  <h2>{{ title }}</h2>
+  <p>{{ description }}</p>
 </div>
 
 {% for bookmark in bookmarks | sort(true, false, 'timestamp') %}
