@@ -13,11 +13,11 @@
 ---
 
 <div class="content">
-  <h2>{{ title }} <sup><a href="feed.xml">RSS</a></sup></h2>
+  <h1>{{ title }} <sup><a class="caps" href="feed.xml">RSS</a></sup></h1>
 
   {% for year, posts in collections.writing | groupByPublicationYear %}
   <section>
-    <h3>{{ year }}</h3>
+    <h2>{{ year }}</h2>
 
     <ul>
       {% for post in posts %}

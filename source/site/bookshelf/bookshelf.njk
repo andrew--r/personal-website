@@ -5,9 +5,7 @@ description: Andrey’s bookshelf
 ---
 {% from "components/book/index.njk" import bookCard %}
 
-<div class="content">
-  <h2>{{ title }}</h2>
-</div>
+<h1>{{ title }}</h1>
 
 {% for book in bookshelf %}
   {{ bookCard(book) }}

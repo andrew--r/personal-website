@@ -6,13 +6,19 @@
 
 a:not(.link_unstyled),
 .link:not(.link_unstyled) {
-  color: var(--color-primary);
-  text-decoration: underline;
+  border-bottom: thin solid var(--color-link-underline);
+  color: var(--color-link);
+  text-decoration: none;
+
+  &:matches(:hover, :active) {
+    border-bottom-color: var(--color-link-underline-hover);
+    color: var(--color-link-hover);
+  }
 }
 
-a:not(.link_unstyled):matches(:active),
-.link:not(.link_unstyled):matches(:active, .link_active) {
-  text-decoration: none;
+.link_active:not(.link_unstyled),
+.link_active:not(.link_unstyled):matches(:hover, :active) {
+  border-bottom-color: transparent;
   background-color: var(--color-primary-light);
   box-shadow: 0 0 0 3px var(--color-primary-light);
   color: #fff;

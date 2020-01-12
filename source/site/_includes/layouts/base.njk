@@ -8,6 +8,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% include "preload.njk" %}
+
     <title>{{ title }}{% if title %} · {% endif %}Andrey Romanov</title>
     <meta name="description" content="{{ description }}">
 
@@ -15,8 +18,8 @@
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" content="{{ description }}">
 
-    {% if coverUrl %}
-      <meta property="og:image" content="{{ coverUrl }}">
+    {% if cover %}
+      <meta property="og:image" content="{{ cover.url }}">
     {% endif %}
 
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
@@ -45,7 +48,7 @@
         {{ content | safe }}
       </main>
 
-      {{ footer(class='page__footer', site=site) }}
+      {{ footer(class='page__footer') }}
     </div>
   </body>
 

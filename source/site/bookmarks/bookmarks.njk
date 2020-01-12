@@ -5,10 +5,8 @@ description: Things I find worth sharing
 ---
 {% from "components/bookmark/index.njk" import bookmarkView %}
 
-<div class="content">
-  <h2>{{ title }}</h2>
-  <p>{{ description }}</p>
-</div>
+<h1>{{ title }}</h1>
+<p class="subtitle">{{ description }}</p>
 
 {% for bookmark in bookmarks | sort(true, false, 'timestamp') %}
   {{ bookmarkView(bookmark) }}

@@ -1,9 +1,3 @@
 :root {
   --readable-line-width: 32em;
-  --typo-baseline: calc(var(--typo-size-m) * var(--typo-line-height));
-  --typo-line-height: 1.4;
-  --typo-size-s: calc(var(--typo-size-m) * 0.75);
-  --typo-size-m: calc(16px + 0.2vw);
-  --typo-size-l: calc(var(--typo-size-m) * 1.25);
-  --typo-size-xl: calc(var(--typo-size-m) * 1.5);
 }

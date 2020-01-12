@@ -1,21 +1,23 @@
 {% macro bookCard(book) %}
-<section class="book">
-  <h3 class="book__title">
-    {{ book.title }}
-    {% if book.state === 'dropped' %}
-    <sup class="book__dropped">dropped</sup>
+  <section>
+    <h2>
+      {{ book.title }}
+
+      {% if book.state === 'dropped' %}
+        <sup class="text_muted">dropped</sup>
+      {% endif %}
+    </h2>
+
+    <p class="text_muted">by {{ book.author }}</p>
+
+    {% if book.progress %}
+      <meter value="{{ book.progress.current / book.progress.total }}">
+        read {{ book.progress.current }} {{ 'page' if book.progress.current % 10 === 1 else 'pages' }} of {{ book.progress.total }}
+      </meter>
     {% endif %}
-  </h3>
-  <div class="text_muted text_size_s">by {{ book.author }}</div>
 
-  {% if book.progress %}
-  <meter value="{{ book.progress.current / book.progress.total }}">
-    read {{ book.progress.current }} {{ 'page' if book.progress.current % 10 === 1 else 'pages' }} of {{ book.progress.total }}
-  </meter>
-  {% endif %}
-
-  {% if book.review %}
-  <p class="book__review">{{ book.review }}</p>
-  {% endif %}
-</section>
+    {% if book.review %}
+      <p>{{ book.review }}</p>
+    {% endif %}
+  </section>
 {% endmacro %}
