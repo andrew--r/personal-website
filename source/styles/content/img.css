@@ -1,0 +1,6 @@
+img {
+  border: thin solid rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}

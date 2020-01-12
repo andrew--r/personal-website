@@ -1,17 +1,17 @@
 ---
 layout: layouts/base
 ---
-
-<article class="article" itemtype="http://schema.org/BlogPosting" itemscope="">
-  <header class="article__header">
-    {% if coverUrl %}
-    <img class="article__cover" src="{{ coverUrl }}" alt="">
+<article itemtype="http://schema.org/BlogPosting" itemscope="">
+  <header>
+    {% if cover %}
+      <img src="{{ cover.url }}" alt="{{ cover.alt }}">
     {% endif %}
 
-    <time class="article__time" datetime="{{ publicationDate | dateToIsoString }}" itemprop="datePublished">
+    <time class="text_muted" datetime="{{ publicationDate | dateToIsoString }}" itemprop="datePublished">
       {% formattedDate publicationDate %}
     </time>
-    <h2 class="article__title" itemprop="name headline">{{ title }}</h2>
+
+    <h1 itemprop="name headline">{{ title }}</h1>
   </header>
 
   <div class="content" itemprop="articleBody">

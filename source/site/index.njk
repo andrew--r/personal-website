@@ -13,21 +13,42 @@
 {% from "components/timeline/index.njk" import timeline %}
 
 <div class="page-home">
-  <h2 class="visuallyhidden">About</h2>
+  <h1 class="visuallyhidden">Andrey Romanov</h1>
 
   <div class="page-home__main content">
-    <p><img src="/assets/images/personal-photo.jpg" alt="Personal photo"></p>
+    <section>
+      <h2 class="visuallyhidden">Introduction</h2>
 
-    <p>Hi! I’m a front-end web developer. I live in <s>Omsk</s> → Moscow (Russia) and work at <s>Innova</s> → <s>Avito</s> → <s>Sticker.place</s> → Joom. I’m passionate about design and music.</p>
+      <p>
+        <img
+          sizes="(max-width: 800px) 100vw, 800px"
+          srcset="
+          /assets/images/intro/200.jpg 200w,
+          /assets/images/intro/295.jpg 295w,
+          /assets/images/intro/365.jpg 365w,
+          /assets/images/intro/449.jpg 449w,
+          /assets/images/intro/514.jpg 514w,
+          /assets/images/intro/579.jpg 579w,
+          /assets/images/intro/642.jpg 642w,
+          /assets/images/intro/800.jpg 800w"
+          src="/assets/images/intro/800.jpg"
+          alt="Personal photo"
+        >
+      </p>
 
-    <h2>What I made</h2>
+      <p>Hi! I’m a front-end web developer. I live in <s>Omsk</s> → Moscow (Russia) and work at <s>Innova</s> → <s>Avito</s> → <s>Sticker.place</s> → Joom. I’m passionate about design and music.</p>
+    </section>
 
-    <ul>
-      <li><a href="https://forwebdev.ru">For Web</a>, one of the largest russian front-end news aggregators</li>
-      <li><a href="https://github.com/andrew--r/frontend-case-studies">frontend case studies</a>, a curated list of technical talks and articles about real world enterprise frontend development</li>
-      <li><a href="https://github.com/andrew--r/channels">channels</a>, a collection of useful YouTube channels for javascript developers and web designers</li>
-      <li><a href="https://github.com/andrew--r/hljs-alabaster">hljs-alabaster</a>, Alabaster theme for highlight.js</li>
-    </ul>
+    <section>
+      <h2>What I made</h2>
+
+      <ul>
+        <li><a href="https://forwebdev.ru">For Web</a>, one of the largest russian front-end news aggregators</li>
+        <li><a href="https://github.com/andrew--r/frontend-case-studies">frontend case studies</a>, a curated list of technical talks and articles about real world enterprise frontend development</li>
+        <li><a href="https://github.com/andrew--r/channels">channels</a>, a collection of useful YouTube channels for javascript developers and web designers</li>
+        <li><a href="https://github.com/andrew--r/hljs-alabaster">hljs-alabaster</a>, Alabaster theme for highlight.js</li>
+      </ul>
+    </section>
   </div>
 
   <aside class="page-home__aside content">
@@ -43,5 +64,4 @@
       {{ timeline() }}
     </section>
   </aside>
-
 </div>

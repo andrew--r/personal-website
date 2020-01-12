@@ -1,18 +1,10 @@
-.navigation,
-.navigation__item {
-  margin: 0;
-  padding: 0;
-}
-
 .navigation {
-  --navigation-item-spacing: 1em;
-
-  margin-bottom: calc(var(--navigation-item-spacing) * -1);
-  font-size: 0.875em;
+  all: unset;
 }
 
 .navigation__item {
+  all: unset;
   display: inline-block;
-  margin-right: var(--navigation-item-spacing);
-  margin-bottom: var(--navigation-item-spacing);
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
 }

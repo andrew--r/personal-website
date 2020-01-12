@@ -1,18 +1,12 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   height: 100%;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }

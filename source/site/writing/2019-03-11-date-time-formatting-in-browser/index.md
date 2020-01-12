@@ -3,7 +3,8 @@ layout: layouts/article
 tags: writing
 title: Date and time formatting in browser
 description: Use Intl.DateTimeFormat instead of third-party libraries for date formatting.
-coverUrl: assets/cover.png
+cover:
+  url: assets/cover.png
 publicationDate: 2019-03-11
 ---
 

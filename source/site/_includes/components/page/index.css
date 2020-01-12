@@ -5,7 +5,7 @@
   min-height: 100vh;
   max-width: var(--site-width);
   margin: auto;
-  padding: 0 var(--typo-baseline);
+  padding: 0 1rem;
 }
 
 .page__header,
@@ -15,9 +15,4 @@
 
 .page__content {
   flex: 1 0 auto;
-  padding: var(--typo-baseline) 0;
-}
-
-.page__content :first-child {
-  margin-top: 0;
 }

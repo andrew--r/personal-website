@@ -1,10 +1,20 @@
-.list,
-.content :matches(ul, ol) {
-  margin: var(--typo-baseline) 0;
-  padding-left: 1.5em;
+:matches(ul, ol) {
+  margin: 0;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  max-width: var(--readable-line-width);
+  padding: 0;
+  padding-left: 1.5rem;
+
+  li & {
+    margin-top: 0.5rem;
+  }
 }
 
-.list__item,
-.content li {
-  margin-top: calc(0.5em * var(--typo-line-height));
+ul {
+  list-style: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 0.5rem;
 }

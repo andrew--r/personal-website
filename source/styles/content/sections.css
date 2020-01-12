@@ -1,0 +1,32 @@
+section {
+  padding: 1.25rem 0;
+}
+
+section:target {
+  position: relative;
+}
+
+section:target::before {
+  animation: highlightTarget 5s;
+  bottom: 0;
+  content: '';
+  left: -1rem;
+  position: absolute;
+  right: -1rem;
+  top: 0;
+  z-index: -1;
+}
+
+@keyframes highlightTarget {
+  0% {
+    background-color: var(--color-highlight);
+  }
+
+  50% {
+    background-color: var(--color-highlight);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
