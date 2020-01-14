@@ -5,6 +5,7 @@
   min-height: 100vh;
   max-width: var(--site-width);
   margin: auto;
+  overflow-x: hidden;
   padding: 0 1rem;
 }
 
