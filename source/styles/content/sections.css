@@ -1,12 +1,12 @@
-section {
+:matches(section, article) {
   padding: 1.25rem 0;
 }
 
-section:target {
+:matches(section, article):target {
   position: relative;
 }
 
-section:target::before {
+:matches(section, article):target::before {
   animation: highlightTarget 5s;
   bottom: 0;
   content: '';
