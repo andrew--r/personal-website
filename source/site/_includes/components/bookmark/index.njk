@@ -1,6 +1,7 @@
 {% macro bookmarkView(bookmark) %}
 <section class="bookmark">
   <h2><a href="{{ bookmark.data.url }}">{{ bookmark.data.title }}</a></h2>
+  <p class="text_muted">{{ bookmark.data.url | hostFromUrl }}</p>
   {{ bookmark.templateContent | safe }}
 </section>
 {% endmacro %}
