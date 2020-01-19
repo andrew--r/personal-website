@@ -1,10 +1,6 @@
 {% macro bookmarkView(bookmark) %}
 <section class="bookmark">
-  <h2><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h2>
-  {# <ul aria-label="Tags">
-    {% for tag in bookmark.tags %}
-      <li class="bookmark__tag text_muted">{{ tag }}</li>
-    {% endfor %}
-  </ul> #}
+  <h2><a href="{{ bookmark.data.url }}">{{ bookmark.data.title }}</a></h2>
+  {{ bookmark.templateContent | safe }}
 </section>
 {% endmacro %}

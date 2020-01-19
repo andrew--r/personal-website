@@ -7,7 +7,7 @@ function hashAssets({ buildPath } = {}) {
   }
 
   return (content, outputPath) => {
-    if (!outputPath.endsWith('.html')) {
+    if (!outputPath || !outputPath.endsWith('.html')) {
       return content;
     }
 

@@ -5,6 +5,7 @@ const minifiableFilesExtensions = ['html', 'xml'];
 function minifyMarkup() {
   return (content, outputPath) => {
     if (
+      outputPath &&
       minifiableFilesExtensions.some((extension) =>
         outputPath.endsWith(`.${extension}`),
       )

@@ -8,6 +8,6 @@ description: Things I find worth sharing
 <h1>{{ title }}</h1>
 <p class="subtitle">{{ description }}</p>
 
-{% for bookmark in bookmarks | sort(true, false, 'timestamp') %}
+{% for bookmark in collections.bookmarks | sort(true, false, 'fileSlug') %}
   {{ bookmarkView(bookmark) }}
 {% endfor %}
