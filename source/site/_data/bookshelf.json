@@ -20,7 +20,7 @@
   {
     "author": "Victor Papanek",
     "progress": {
-      "current": 32,
+      "current": 63,
       "total": 378
     },
     "state": "reading",
@@ -39,11 +39,7 @@
   },
   {
     "author": "Steve Krug",
-    "progress": {
-      "current": 165,
-      "total": 250
-    },
-    "state": "reading",
+    "state": "read",
     "title": "Don’t Make Me Think",
     "year": 2020
   },
