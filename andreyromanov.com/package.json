@@ -3,43 +3,22 @@
   "name": "andreyromanov.com",
   "version": "1.0.0",
   "description": "",
-  "main": "",
   "scripts": {
     "clean": "rm -rf build",
-    "prestart": "npm run clean && gulp",
+    "prestart": "yarn clean && gulp",
     "start": "gulp watch & eleventy --serve",
-    "prebuild": "npm run clean",
+    "prebuild": "yarn clean",
     "build": "gulp && eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrew--r/andreyromanov.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andrew--r/andreyromanov.com/issues"
-  },
-  "homepage": "https://andreyromanov.com",
   "devDependencies": {
     "@11ty/eleventy": "0.10.0",
     "@11ty/eleventy-plugin-rss": "1.0.7",
-    "autoprefixer": "9.7.4",
-    "gulp": "4.0.2",
-    "gulp-postcss": "8.0.0",
     "gulp-sourcemaps": "2.6.5",
     "hasha": "5.1.0",
     "html-minifier": "4.0.0",
-    "husky": "4.2.1",
-    "lint-staged": "10.0.2",
+    "postcss": "7.0.26",
     "postcss-csso": "4.0.0",
-    "postcss-easy-import": "3.0.0",
     "postcss-focus-visible": "4.0.0",
-    "postcss-nested": "4.2.1",
-    "postcss-selector-matches": "4.0.0",
-    "posthtml": "0.12.0",
-    "prettier": "1.19.1"
-  },
-  "dependencies": {}
+    "posthtml": "0.12.0"
+  }
 }
