@@ -1,0 +1,3 @@
+[build]
+  publish = "andreyromanov.com/build"
+  command = "npm run build"
