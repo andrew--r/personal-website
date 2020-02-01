@@ -1,0 +1,10 @@
+@import './modules/**/*.css';
+
+.article {
+  font-size: calc(1em + 0.1vw);
+}
+
+.article__title {
+  margin-top: 0;
+  max-width: 20em;
+}

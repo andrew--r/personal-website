@@ -1,0 +1,9 @@
+.footer {
+  padding-top: calc(3rem + 1vw);
+  padding-bottom: calc(1rem + 1vw);
+  font-size: 0.85rem;
+}
+
+.footer__contacts {
+  padding-bottom: 0.5rem;
+}

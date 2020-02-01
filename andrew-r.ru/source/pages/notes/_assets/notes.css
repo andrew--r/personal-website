@@ -1,0 +1,8 @@
+.notes__list {
+  list-style: none;
+}
+
+.notes__item {
+  @include readable-text-width();
+  padding-bottom: 0.5em;
+}
