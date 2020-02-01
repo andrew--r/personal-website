@@ -1,0 +1,3 @@
+[build]
+  publish = "build"
+  command = "npm run build && cp _redirects ./build/_redirects"

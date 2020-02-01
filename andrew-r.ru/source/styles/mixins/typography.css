@@ -1,0 +1,29 @@
+@mixin readable-heading-width() {
+  max-width: var(--readable-heading-width);
+}
+
+@mixin readable-text-width() {
+  max-width: var(--readable-text-width);
+}
+
+@mixin heading() {
+  @include readable-heading-width();
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.25;
+}
+
+@mixin h1() {
+  @include heading();
+  font-size: var(--h1-size);
+}
+
+@mixin h2() {
+  @include heading();
+  font-size: var(--h2-size);
+}
+
+@mixin h3() {
+  @include heading();
+  font-size: var(--h3-size);
+}
