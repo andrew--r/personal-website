@@ -6,7 +6,7 @@ const renderPage = () => `
 <div class="article">
   <ul>
     <li><a href="https://code.visualstudio.com/">VS Code</a> как основной текстовый редактор, <a href="https://www.vim.org/">vim</a> как вспомогательный</li>
-    <li><a href="https://www.iterm2.com">iterm</a> как замена стандартного терминала</li>
+    <li><a href="https://sw.kovidgoyal.net/kitty/">kitty</a> как замена стандартного терминала</li>
     <li><a href="https://github.com/tonsky/FiraCode">Fira Code</a> как лучший шрифт для программирования</li>
     <li><a href="https://prettier.io/">Prettier</a> для форматирования кода</li>
     <li><a href="https://sketchapp.com/">Sketch</a> и <a href="https://www.figma.com/">Figma</a> для работы с дизайн-макетами и редактирования SVG</li>
