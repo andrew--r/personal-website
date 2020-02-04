@@ -3,7 +3,7 @@ layout: layouts/article
 tags: writing
 title: Global .gitignore
 description: Global .gitignore with all your environment-specific exclusions would reduce noise and benefit all your projects
-publicationDate: 2020-01-14
+date: 2020-01-14
 ---
 
 Developers often put environment-specific stuff in their project’s .gitignore:

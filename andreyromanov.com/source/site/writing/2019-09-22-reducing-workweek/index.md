@@ -3,7 +3,7 @@ layout: layouts/article
 tags: writing
 title: Reducing workweek
 description: Thoughts on reducing work week instead of increasing salary.
-publicationDate: 2019-09-22
+date: 2019-09-22
 ---
 
 > We have to work not 12 hours, and head.
