@@ -6,7 +6,7 @@ description: Blocking advertisement and trackers at the network level instead o
 cover:
   alt: Pi-hole dashboard screenshot
   url: assets/cover.png
-publicationDate: 2019-12-01
+date: 2019-12-01
 ---
 
 <p class="subtitle">Blocking advertisement and trackers at the network level instead of browser is an insanely elegant idea. Such way trackers can’t know which sites you visit, and advertising scripts are not downloaded, which decreases overall network load and increases sites loading speed.</p>

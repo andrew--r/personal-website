@@ -7,8 +7,8 @@ layout: layouts/base
       <img src="{{ cover.url }}" alt="{{ cover.alt }}">
     {% endif %}
 
-    <time class="text_muted" datetime="{{ publicationDate | dateToIsoString }}" itemprop="datePublished">
-      {% formattedDate publicationDate %}
+    <time class="text_muted" datetime="{{ date | dateToIsoString }}" itemprop="datePublished">
+      {% formattedDate date %}
     </time>
 
     <h1 itemprop="name headline">{{ title }}</h1>
