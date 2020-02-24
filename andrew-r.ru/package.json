@@ -1,35 +1,16 @@
 {
-  "name": "andrew-r.ru",
   "private": true,
+  "name": "andrew-r.ru-11ty",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "gulp",
-    "test": "yarn test:lint",
-    "test:lint": "eslint source gulp gulpfile.js"
+    "clean": "rm -rf build",
+    "prestart": "yarn clean && gulp",
+    "start": "NODE_ICU_DATA=../node_modules/full-icu gulp watch & NODE_ICU_DATA=../node_modules/full-icu eleventy --serve",
+    "prebuild": "yarn clean",
+    "build": "gulp && eleventy && cp _redirects ./build/_redirects"
   },
   "devDependencies": {
-    "classnames": "2.2.6",
-    "date-fns": "1.29.0",
-    "del": "3.0.0",
-    "feed": "2.0.1",
-    "gulp-csso": "3.0.1",
-    "gulp-file": "0.4.0",
-    "gulp-htmlmin": "5.0.1",
-    "gulp-rename": "1.4.0",
-    "gulp-rev": "9.0.0",
-    "gulp-util": "3.0.8",
-    "hljs-alabaster": "1.0.0",
-    "lodash": "4.17.13",
-    "merge-stream": "1.0.1",
-    "postcss-color-function": "4.0.1",
-    "postcss-sassy-mixins": "2.1.0",
-    "remark": "10.0.0",
-    "remark-highlight.js": "5.0.0",
-    "remark-html": "8.0.0",
-    "remark-macro": "1.0.7",
-    "require-dir": "1.1.0",
-    "through2": "2.0.3",
-    "unist-util-visit": "1.4.0"
+    "hljs-alabaster": "1.0.0"
   }
 }

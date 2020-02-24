@@ -1,3 +1,0 @@
-.article :matches(p, li) > code {
-  font-size: 0.875em;
-}

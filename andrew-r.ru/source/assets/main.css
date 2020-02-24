@@ -1,9 +1,0 @@
-@import 'hljs-alabaster';
-@import '../styles/config/**/*.css';
-@import '../styles/mixins/**/*.css';
-@import '../styles/base.css';
-@import '../styles/typography/*.css';
-@import '../styles/page.css';
-@import '../styles/links.css';
-@import '../styles/vendor/**/*.css';
-@import '../partials/**/*.css';

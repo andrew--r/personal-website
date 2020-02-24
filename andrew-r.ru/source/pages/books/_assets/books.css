@@ -1,8 +1,0 @@
-.books__list {
-  list-style: none;
-}
-
-.books__item {
-  @include readable-text-width();
-  padding-bottom: 0.5em;
-}
