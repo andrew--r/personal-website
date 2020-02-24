@@ -10,7 +10,5 @@
     "prebuild": "yarn clean",
     "build": "gulp && eleventy && cp _redirects ./build/_redirects"
   },
-  "devDependencies": {
-    "hljs-alabaster": "1.0.0"
-  }
+  "devDependencies": {}
 }
