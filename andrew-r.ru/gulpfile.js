@@ -1,3 +1,4 @@
+const { arSharedStylesPaths } = require('ar-shared-styles/paths');
 const gulp = require('gulp');
 const buildConfig = require('./build-config');
 
@@ -14,7 +15,13 @@ gulp.task('css', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(`${buildConfig.dir.source}/**/*.css`, gulp.series('css'));
+  gulp.watch(
+    [
+      `${buildConfig.dir.source}/**/*.css`,
+      `${arSharedStylesPaths.packageDir}/**/*.css`,
+    ],
+    gulp.series('css'),
+  );
 });
 
 gulp.task('default', (done) => {
