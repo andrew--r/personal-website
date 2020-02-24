@@ -1,0 +1,20 @@
+---
+layout: layouts/base
+---
+<article itemtype="http://schema.org/BlogPosting" itemscope="">
+  <header>
+    {% if cover %}
+      <img src="{{ cover.url }}" alt="{{ cover.alt }}">
+    {% endif %}
+
+    <time class="text_muted" datetime="{{ date | dateToIsoString }}" itemprop="datePublished">
+      {% formattedDate date %}
+    </time>
+
+    <h1 itemprop="name headline">{{ title }}</h1>
+  </header>
+
+  <div class="content" itemprop="articleBody">
+    {{ content | safe }}
+  </div>
+</article>

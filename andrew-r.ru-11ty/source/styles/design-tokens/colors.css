@@ -1,0 +1,14 @@
+:root {
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-highlight: #f9f5e4;
+  --color-primary: #005ea5;
+  --color-primary-light: #57a2db;
+  --color-red: #a00000;
+  --color-text-muted: #595959;
+  --color-yellow: #ffbf47;
+
+  --color-link: var(--color-primary);
+  --color-link-underline: rgba(152, 184, 200, 0.2);
+  --color-link-hover: var(--color-red);
+  --color-link-underline-hover: rgba(160, 48, 0, 0.2);
+}

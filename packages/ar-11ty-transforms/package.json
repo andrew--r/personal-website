@@ -1,0 +1,8 @@
+{
+  "name": "ar-11ty-transforms",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ar-posthtml-utils": "*"
+  }
+}

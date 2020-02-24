@@ -1,0 +1,39 @@
+.sidenote {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sidenote--image {
+  align-items: flex-start;
+}
+
+.sidenote p {
+  margin: 0;
+}
+
+.sidenote img {
+  display: block;
+  margin: 0;
+}
+
+.sidenote__paragraph,
+.sidenote__note {
+  margin: 0;
+  flex: 0 1 100%;
+}
+
+.sidenote__note {
+  max-width: var(--readable-line-width);
+
+  margin-top: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 0.75em;
+}
+
+.sidenote--image .sidenote__note {
+  margin-top: 0.5rem;
+}

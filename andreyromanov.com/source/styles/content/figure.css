@@ -1,0 +1,12 @@
+figure {
+  max-width: var(--readable-line-width);
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+figcaption {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}

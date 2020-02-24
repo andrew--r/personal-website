@@ -1,0 +1,64 @@
+.timeline {
+  counter-reset: year;
+  display: grid;
+  grid-template-columns: repeat(52, 1fr);
+  grid-gap: 1px;
+  max-width: calc(15px * 52);
+  padding-right: 2em;
+
+  @media (min-width: 480px) {
+    grid-gap: 2px;
+  }
+}
+
+.timeline__week {
+  position: relative;
+  display: block;
+}
+
+.timeline__week::before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.timeline__week_passed::before {
+  background: rgba(255, 0, 0, 1);
+}
+
+.timeline__week::after {
+  position: absolute;
+  left: calc(100% + 4px);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.timeline__week:nth-child(52)::after {
+  content: 'Год';
+}
+
+.timeline__week:nth-child(52n) {
+  counter-increment: year;
+}
+
+@media (max-width: 479px) {
+  .timeline__week:nth-child(520n)::after {
+    content: counter(year);
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .timeline__week:nth-child(260n)::after {
+    content: counter(year);
+  }
+}
+
+@media (min-width: 768px) {
+  .timeline__week:nth-child(208n)::after {
+    content: counter(year);
+  }
+}

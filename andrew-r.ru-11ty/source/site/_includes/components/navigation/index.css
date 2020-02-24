@@ -1,0 +1,10 @@
+.navigation {
+  all: unset;
+}
+
+.navigation__item {
+  all: unset;
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
