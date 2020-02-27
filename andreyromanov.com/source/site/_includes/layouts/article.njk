@@ -4,7 +4,7 @@ layout: layouts/base
 <article itemtype="http://schema.org/BlogPosting" itemscope="">
   <header>
     {% if cover %}
-      <img src="{{ cover.url }}" alt="{{ cover.alt }}">
+      <img src="{{ cover.url }}" alt="{{ cover.alt }}" width="{{ cover.width }}" height="{{ cover.height }}">
     {% endif %}
 
     <time class="text_muted" datetime="{{ date | dateToIsoString }}" itemprop="datePublished">

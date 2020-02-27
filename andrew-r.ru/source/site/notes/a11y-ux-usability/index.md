@@ -11,7 +11,7 @@ date: 2019-12-17 01:47:00 +3
   <p class="sidenote__paragraph">Последнее время я наблюдаю раскол фронтенд-сообщества на два лагеря: одни активно продвигают доступность, а другие искренне не понимают, зачем им тратить на неё время. Вместо диалога между этими двумя лагерями складывается только неприятие друг друга, сарказм в обе стороны, оскорбления и прочие сопутствующие нашему токсичному сообществу прелести.</p>
 
   <aside class="sidenote__note">
-    <img alt="Иллюстрация токсичности" src="https://habrastorage.org/webt/gc/5s/bi/gc5sbicaanyos3-z0vwr3ccpkfc.png" style="max-width: 150px;">
+    <img alt="Иллюстрация токсичности" src="https://habrastorage.org/webt/gc/5s/bi/gc5sbicaanyos3-z0vwr3ccpkfc.png" style="max-width: 150px;" width="512" height="512">
   </aside>
 </div>
 
