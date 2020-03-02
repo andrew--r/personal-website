@@ -3,3 +3,4 @@
 @import './base.css';
 @import './focus-ring.css';
 @import './content/**/*.css';
+@import './components/**/*.css';
