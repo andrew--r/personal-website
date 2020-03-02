@@ -8,7 +8,7 @@
     "prestart": "yarn clean && gulp",
     "start": "NODE_ICU_DATA=../node_modules/full-icu gulp watch & NODE_ICU_DATA=../node_modules/full-icu eleventy --serve",
     "prebuild": "yarn clean",
-    "build": "gulp && eleventy && cp _redirects ./build/_redirects"
+    "build": "NODE_ICU_DATA=../node_modules/full-icu gulp && NODE_ICU_DATA=../node_modules/full-icu eleventy && cp _redirects ./build/_redirects"
   },
   "devDependencies": {}
 }
