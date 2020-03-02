@@ -29,7 +29,9 @@
     }
   }
 
-  renderTimeline(document.querySelector('[data-timeline-target]'));
+  window.addEventListener('load', function() {
+    renderTimeline(document.querySelector('[data-timeline-target]'));
+  });
 })();
 </script>
 {% endmacro %}
