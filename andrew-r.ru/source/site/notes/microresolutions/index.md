@@ -6,7 +6,7 @@ description:
 date: 2018-01-13 00:22:00 +3
 ---
 <figure>
-  <img alt="Обложка книги" src="assets/cover.jpg" />
+  <img alt="Обложка книги" src="assets/cover.jpg" height="827" width="570" />
   <figcaption>Кэролайн Арнольд, 2014, издательство «Манн, Иванов и Фербер», <span class="nobr">ISBN 978-5-00057-202-3</span></figcaption>
 </figure>
 

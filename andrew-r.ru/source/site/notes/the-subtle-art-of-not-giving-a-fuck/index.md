@@ -6,7 +6,7 @@ description:
 date: 2019-01-21 17:32:00 +3
 ---
 <figure>
-  <img alt="Обложка книги" src="assets/cover.jpg" />
+  <img alt="Обложка книги" src="assets/cover.jpg" height="819" width="570" />
   <figcaption>Марк Мэнсон, 2018, издательство «Альпина Паблишер», <span class="nobr">ISBN 978-5-9614-6290-6</span></figcaption>
 </figure>
 

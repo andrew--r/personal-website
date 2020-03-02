@@ -6,6 +6,8 @@ description:
 cover:
   url: assets/cover.jpg
   alt: Обложка книги
+  height: 900
+  width: 1600
 date: 2018-05-11 20:00:00 +3
 ---
 *Андрей Курпатов, 2018, издательство «Капитал», <span class="nobr">ISBN 978-5-906940-62-9</span>*

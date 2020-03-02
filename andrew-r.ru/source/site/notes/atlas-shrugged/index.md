@@ -6,6 +6,8 @@ description:
 cover:
   url: assets/cover.jpg
   alt: Обложка книги
+  height: 900
+  width: 1600
 date: 2018-07-11 22:16:00 +3
 ---
 *Айн Рэнд, 2018, издательство «Альпина Паблишер»*

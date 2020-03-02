@@ -6,7 +6,7 @@ description:
 date: 2018-01-07 11:54:00 +3
 ---
 <figure>
-  <img alt="Обложка книги" src="assets/cover.jpg" />
+  <img alt="Обложка книги" src="assets/cover.jpg" height="1200" width="847" />
   <figcaption>Адитья Бхаргава, 2017, издательство «Питер», <span class="nobr">ISBN 978-5-496-02541-6</span></figcaption>
 </figure>
 

@@ -6,7 +6,7 @@ description: Легко читаемый и интересный обзор ис
 date: 2019-01-08 21:48:00 +3
 ---
 <figure>
-  <img alt="Обложка книги" src="assets/cover.png" />
+  <img alt="Обложка книги" src="assets/cover.png" height="594" width="422" />
   <figcaption>Дэвид Рэндалл, 2014, издательство «Манн, Иванов и Фербер», <span class="nobr">ISBN 978-5-00057-189-7</span></figcaption>
 </figure>
 

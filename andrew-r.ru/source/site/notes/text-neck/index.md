@@ -6,6 +6,8 @@ description:
 cover:
   url: assets/cover.png
   alt: Нагрузка на шею при разных положениях головы
+  height: 874
+  width: 1592
 date: 2019-11-24 21:10:00 +6
 ---
 Прочитал недавно [статью](https://multimedia.scmp.com/lifestyle/article/2183329/text-neck/) о вреде наклона головы при пользовании телефоном. Прикреплённая картинка говорит сама за себя.
