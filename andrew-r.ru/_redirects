@@ -26,12 +26,14 @@
 /notes go=all/preprocessors-vs-vanilla-css /notes/preprocessors-vs-vanilla-css 301
 /notes go=all/microresolutions /notes/microresolutions 301
 
-/notes/grokaem-algoritmy /books/grokaem-algoritmy 301
-/notes/microresolutions /books/microresolutions 301
-/notes/red-pill /books/red-pill 301
-/notes/weniger-schlecht-programmieren /books/weniger-schlecht-programmieren 301
-/notes/atlas-shrugged /books/atlas-shrugged 301
-/notes/goldratt-the-goal /books/goldratt-the-goal 301
-/notes/finplan /books/finplan 301
+/books/grokaem-algoritmy /notes/grokaem-algoritmy 301
+/books/microresolutions /notes/microresolutions 301
+/books/red-pill /notes/red-pill 301
+/books/weniger-schlecht-programmieren /notes/weniger-schlecht-programmieren 301
+/books/atlas-shrugged /notes/atlas-shrugged 301
+/books/goldratt-the-goal /notes/goldratt-the-goal 301
+/books/finplan /notes/finplan 301
+/books/dreamland /notes/dreamland 301
+/books/the-subtle-art-of-not-giving-a-fuck /notes/the-subtle-art-of-not-giving-a-fuck 301
 
 /* /404/index.html 404

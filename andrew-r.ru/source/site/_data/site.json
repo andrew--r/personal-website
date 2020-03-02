@@ -1,0 +1,17 @@
+{
+  "url": "https://andrew-r.ru",
+  "author": {
+    "name": "Андрей Романов",
+    "email": "me@andreyromanov.com"
+  },
+  "navigationLinks": [
+    {
+      "url": "/",
+      "title": "Главная"
+    },
+    {
+      "url": "/notes/",
+      "title": "Заметки"
+    }
+  ]
+}

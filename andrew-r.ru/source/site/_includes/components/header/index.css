@@ -1,0 +1,9 @@
+.header {
+  margin: 1rem 0 2rem;
+}
+
+.header__title {
+  font-size: inherit;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,66 @@
+{% from "components/header/index.njk" import header %}
+{% from "components/footer/index.njk" import footer %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% include "preload.njk" %}
+
+    <title>{{ title }}{% if title %} · {% endif %}Андрей Романов</title>
+    <meta name="description" content="{{ description }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+
+    {% if cover %}
+      <meta property="og:image" content="{{ cover.url }}">
+    {% endif %}
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="/index.css">
+
+    {% if alternates %}
+      {% for alternate in alternates %}
+        <link rel="alternate" href="{{ alternate.href }}" type="{{ alternate.type }}" />
+      {% endfor %}
+    {% endif %}
+
+    {% if langAlternates %}
+      {% for alternate in langAlternates %}
+        <link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.href }}" />
+      {% endfor %}
+    {% endif %}
+
+    <script defer src="/assets/scripts/focus-visible.min.js"></script>
+  </head>
+
+  <body>
+    <div class="page">
+      {{ header(class='page__header', page=page, site=site) }}
+
+      <main class="page__content">
+        {{ content | safe }}
+      </main>
+
+      {{ footer(class='page__footer') }}
+    </div>
+
+    <style>
+      @font-face {
+        font-family: 'Fira Code';
+        src: local('Fira Code'),
+        url('/assets/fonts/fira-code/regular.woff2'),
+        url('/assets/fonts/fira-code/regular.woff');
+        font-weight: 400;
+        font-display: swap;
+      }
+    </style>
+  </body>
+
+</html>

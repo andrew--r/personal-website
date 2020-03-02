@@ -1,0 +1,6 @@
+hr {
+  border: none;
+  border-bottom: thin solid var(--color-border);
+  height: 0;
+  margin: 1rem 0;
+}

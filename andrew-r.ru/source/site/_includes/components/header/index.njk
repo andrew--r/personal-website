@@ -1,0 +1,24 @@
+{% macro header(class, page, site) %}
+<header class="header {% if page.url === '/' %}header_home{% endif %} {{class}}">
+  <div class="header__title">
+    <a class="link link_unstyled" href="/">Андрей Романов</a> <sup><a class="caps" href="https://andreyromanov.com">EN</a></sup>
+  </div>
+
+  <nav>
+    <ul class="navigation">
+      {% for navigationLink in site.navigationLinks %}
+        {% set isLinkActive = navigationLink.url in page.url and (page.url === '/' or navigationLink.url !== '/') %}
+
+        <li class="navigation__item">
+          <a
+            class="link{% if isLinkActive %} link_active{%endif%}"
+            href="{{navigationLink.url}}"
+          >
+            {{navigationLink.title}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+{% endmacro %}

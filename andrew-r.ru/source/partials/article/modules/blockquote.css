@@ -1,8 +1,0 @@
-.article blockquote {
-  padding-left: 1em;
-  border-left: 3px solid rgba(0, 0, 0, 0.1);
-}
-
-.article blockquote + hr {
-  display: none;
-}

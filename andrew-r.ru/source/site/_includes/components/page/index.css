@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  max-width: var(--site-width);
+  margin: auto;
+  overflow-x: hidden;
+  padding: 0 1rem;
+}
+
+.page__header,
+.page__footer {
+  flex: none;
+}
+
+.page__content {
+  flex: 1 0 auto;
+}

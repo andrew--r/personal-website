@@ -1,0 +1,62 @@
+[
+  {
+    "name": "VS Code",
+    "url": "https://code.visualstudio.com"
+  },
+  {
+    "name": "kitty",
+    "url": "https://sw.kovidgoyal.net/kitty"
+  },
+  {
+    "name": "Prettier",
+    "url": "https://prettier.io"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com"
+  },
+  {
+    "name": "Amplifr",
+    "url": "https://amplifr.com"
+  },
+  {
+    "name": "Blogtrottr",
+    "url": "https://blogtrottr.com"
+  },
+  {
+    "name": "Things",
+    "url": "https://culturedcode.com/things"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so"
+  },
+  {
+    "name": "NordVPN",
+    "url": "https://nordvpn.com"
+  },
+  {
+    "name": "KeePassXC",
+    "url": "https://keepassxc.org"
+  },
+  {
+    "name": "OpenOffice",
+    "url": "https://www.openoffice.org"
+  },
+  {
+    "name": "YNAB",
+    "url": "https://www.youneedabudget.com"
+  },
+  {
+    "name": "Fork",
+    "url": "https://git-fork.com"
+  },
+  {
+    "name": "Fastmail",
+    "url": "http://fastmail.com"
+  },
+  {
+    "name": "LICEcap",
+    "url": "https://www.cockos.com/licecap"
+  }
+]
