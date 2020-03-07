@@ -12,6 +12,10 @@
     {
       "url": "/notes/",
       "title": "Заметки"
+    },
+    {
+      "url": "/bookmarks/",
+      "title": "Закладки"
     }
   ]
 }
