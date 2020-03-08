@@ -1,0 +1,13 @@
+---
+layout: layouts/base
+title: Сериалы
+description: Лог просмотренных мной сериалов.
+---
+{% from "components/tv-show/index.njk" import tvShowView %}
+
+<h1>{{ title }}</h1>
+<p class="subtitle">{{ description }}</p>
+
+{% for tvShow in collections.tvShows | sort(true, false, 'date') %}
+  {{ tvShowView(tvShow) }}
+{% endfor %}

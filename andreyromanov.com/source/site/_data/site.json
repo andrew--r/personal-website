@@ -10,16 +10,12 @@
       "title": "Home"
     },
     {
-      "url": "/writing/",
+      "url": "/writing",
       "title": "Writing"
     },
     {
-      "url": "/bookmarks/",
-      "title": "Bookmarks"
-    },
-    {
-      "url": "/bookshelf/",
-      "title": "Bookshelf"
+      "url": "/library",
+      "title": "Library"
     }
   ]
 }

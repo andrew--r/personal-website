@@ -14,8 +14,8 @@
       "title": "Заметки"
     },
     {
-      "url": "/bookmarks/",
-      "title": "Закладки"
+      "url": "/library/",
+      "title": "Библиотека"
     }
   ]
 }

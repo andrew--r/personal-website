@@ -1,7 +1,9 @@
-const { formattedDate } = require('./formatted-date');
+const { formatDate } = require('./format-date');
+const { formatNumber } = require('./format-number');
 
 function addNunjucksShortcodes(eleventyConfig) {
-  eleventyConfig.addNunjucksShortcode('formattedDate', formattedDate);
+  eleventyConfig.addNunjucksShortcode('formatDate', formatDate);
+  eleventyConfig.addNunjucksShortcode('formatNumber', formatNumber);
 }
 
 module.exports = { addNunjucksShortcodes };

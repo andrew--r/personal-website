@@ -1,0 +1,8 @@
+.rating {
+  color: #aaa;
+  font-size: 0.875rem;
+}
+
+.rating_best {
+  color: var(--color-yellow);
+}
