@@ -1,0 +1,25 @@
+---
+layout: layouts/base
+title: Library
+description: 'A running log of everything I read or watch: movies, TV shows, books, articles.'
+---
+<h1>{{ title }}</h1>
+<p class="subtitle">{{ description }}</p>
+
+<ul>
+  <li>
+    <a href="/library/books">Books</a> <span class="text_muted">({% formatNumber collections.books.length %})</span>
+  </li>
+
+  <li>
+    <a href="/library/bookmarks">Bookmarks</a> <span class="text_muted">({% formatNumber collections.bookmarks.length %})</span>
+  </li>
+
+  <li>
+    <a href="/library/movies">Movies</a> <span class="text_muted">({% formatNumber collections.movies.length %})</span>
+  </li>
+
+  <li>
+    <a href="/library/tv-shows">TV shows</a> <span class="text_muted">({% formatNumber collections.tvShows.length %})</span>
+  </li>
+</ul>

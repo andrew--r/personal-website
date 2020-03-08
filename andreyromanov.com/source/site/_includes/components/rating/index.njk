@@ -1,0 +1,11 @@
+{% macro ratingView(rating) %}
+<span class="rating{{ ' rating_best' if rating === 5 }}" aria-label="Rated {{ rating }} out of 5 stars" role="img">
+  {% for i in [1, 2, 3, 4, 5] %}
+    {% if i <= rating %}
+      ★
+    {% else %}
+      ☆
+    {% endif %}
+  {% endfor %}
+</span>
+{% endmacro %}

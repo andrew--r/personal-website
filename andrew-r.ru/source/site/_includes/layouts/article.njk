@@ -8,7 +8,7 @@ layout: layouts/base
     {% endif %}
 
     <time class="text_muted" datetime="{{ date | dateToIsoString }}" itemprop="datePublished">
-      {% formattedDate date %}
+      {% formatDate date %}
     </time>
 
     <h1 itemprop="name headline">{{ title }}</h1>

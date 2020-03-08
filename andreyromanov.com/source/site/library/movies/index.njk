@@ -1,0 +1,13 @@
+---
+layout: layouts/base
+title: Movies
+description: A running log of movies I’ve watched.
+---
+{% from "components/movie/index.njk" import movieView %}
+
+<h1>{{ title }}</h1>
+<p class="subtitle">{{ description }}</p>
+
+{% for movie in collections.movies | sort(true, false, 'date') %}
+  {{ movieView(movie) }}
+{% endfor %}
