@@ -1,6 +1,6 @@
 ---
 layout: layouts/article
-tags: notes
+tags: [notes, favouriteNotes]
 title: Зависимости в компонентном вебе
 description: Конспект доклада Владимира Гриненко с конференции DUMP 2017.
 cover:

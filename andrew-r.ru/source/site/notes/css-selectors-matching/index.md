@@ -1,6 +1,6 @@
 ---
 layout: layouts/article
-tags: notes
+tags: [notes, favouriteNotes]
 title: Почему браузер читает CSS-селекторы справа налево
 description:
 date: 2018-06-05 00:45:00 +3

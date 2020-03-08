@@ -1,6 +1,6 @@
 ---
 layout: layouts/article
-tags: notes
+tags: [notes]
 title: Пока, 2016
 description: Как водится, пора подводить итоги года.
 date: 2016-12-18 20:52:00 +6

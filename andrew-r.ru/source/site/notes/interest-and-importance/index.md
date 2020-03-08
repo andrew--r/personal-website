@@ -1,6 +1,6 @@
 ---
 layout: layouts/article
-tags: notes
+tags: [notes, favouriteNotes]
 title: «Интерес и важность», часть 1
 description: Собрал основные тезисы лекции Людвига Быстроновского (арт-директора студии Лебедева).
 cover:

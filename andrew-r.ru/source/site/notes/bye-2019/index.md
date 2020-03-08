@@ -1,6 +1,6 @@
 ---
 layout: layouts/article
-tags: notes
+tags: [notes]
 title: Пока, 2019
 description: Фиксирую значимые для меня события за прошедший год и немного рефлексирую.
 date: 2019-12-30 23:32:00 +6

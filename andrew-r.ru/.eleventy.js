@@ -18,7 +18,7 @@ module.exports = (eleventyConfig) => {
 
   return {
     dir,
-    templateFormats: ['njk', 'md', 'png', 'jpg'],
+    templateFormats: ['njk', 'md', 'png', 'jpg', 'svg'],
     passthroughFileCopy: true,
   };
 };
