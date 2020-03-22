@@ -7,10 +7,16 @@
       {% formatDate tvShow.date %}
     </time>
     •
+    {{ tvShow.data.seasons | join(", ") }} {{ "сезоны" if tvShow.data.seasons.length > 1 else "сезон" }}
+    •
     {{ ratingView(tvShow.data.rating) }}
   </div>
 
-  <h2><a href="{{ tvShow.data.url }}" class="p-name">{{ tvShow.data.title }}</a></h2>
+  <h2>
+    <a href="{{ tvShow.data.url }}" class="p-name">
+      {{ tvShow.data.title }}
+    </a>
+  </h2>
 
   {% if tvShow.templateContent %}
     <div class="e-content">{{ tvShow.templateContent | safe }}</div>
