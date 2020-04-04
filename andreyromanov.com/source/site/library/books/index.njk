@@ -3,11 +3,33 @@ layout: layouts/base
 title: Books
 description: A running log of books I’ve read.
 ---
-{% from "components/book/index.njk" import bookView %}
-
 <h1>{{ title }}</h1>
 <p class="subtitle">{{ description }}</p>
 
-{% for book in collections.books | sort(true, false, 'date') %}
-  {{ bookView(book) }}
+{% for year, books in collections.books | groupByPublicationYear %}
+  <section id="{{ year }}">
+    <h2>{{ year }}</h2>
+
+    <table class="dated-table">
+      <tbody>
+        {% for book in books %}
+          <tr>
+            <td>
+              <time datetime="{{ book.date | dateToIsoString }}">
+                {% formatShortDate book.date %}
+              </time>
+            </td>
+            <td>
+              <a href="{{ book.data.url }}">
+                {{ book.data.title }}
+              </a>
+              {% if book.templateContent %}
+                {{ book.templateContent | safe }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
 {% endfor %}

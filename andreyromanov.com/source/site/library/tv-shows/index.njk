@@ -3,11 +3,37 @@ layout: layouts/base
 title: TV Shows
 description: A running log of TV shows I’ve watched.
 ---
-{% from "components/tv-show/index.njk" import tvShowView %}
+{% from "components/rating/index.njk" import ratingView %}
 
 <h1>{{ title }}</h1>
 <p class="subtitle">{{ description }}</p>
 
-{% for tvShow in collections.tvShows | sort(true, false, 'date') %}
-  {{ tvShowView(tvShow) }}
+{% for year, tvShows in collections.tvShows | groupByPublicationYear %}
+  <section id="{{ year }}">
+    <h2>{{ year }}</h2>
+
+    <table class="dated-table">
+      <tbody>
+        {% for tvShow in tvShows %}
+          <tr>
+            <td>
+              {{ ratingView(tvShow.data.rating) }}
+              <div>{{ "Seasons" if tvShow.data.seasons.length > 1 else "Season" }} {{ tvShow.data.seasons | join(", ") }}</div>
+              <time datetime="{{ tvShow.date | dateToIsoString }}">
+                {% formatShortDate tvShow.date %}
+              </time>
+            </td>
+            <td>
+              <a href="{{ tvShow.data.url }}">
+                {{ tvShow.data.title }}
+              </a>
+              {% if tvShow.templateContent %}
+                {{ tvShow.templateContent | safe }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
 {% endfor %}

@@ -3,11 +3,37 @@ layout: layouts/base
 title: Фильмы
 description: Лог просмотренных мной фильмов.
 ---
-{% from "components/movie/index.njk" import movieView %}
+{% from "components/rating/index.njk" import ratingView %}
 
 <h1>{{ title }}</h1>
 <p class="subtitle">{{ description }}</p>
 
-{% for movie in collections.movies | sort(true, false, 'date') %}
-  {{ movieView(movie) }}
+{% for year, movies in collections.movies | groupByPublicationYear %}
+  <section id="{{ year }}">
+    <h2>{{ year }}</h2>
+
+    <table class="dated-table">
+      <tbody>
+        {% for movie in movies %}
+          <tr>
+            <td>
+              <div>{{ ratingView(movie.data.rating) }}</div>
+              <time datetime="{{ movie.date | dateToIsoString }}">
+                {% formatShortDate movie.date %}
+              </time>
+            </td>
+            <td>
+              <a href="{{ movie.data.url }}">
+                {{ movie.data.title }}
+              </a>
+
+              {% if movie.templateContent %}
+                {{ movie.templateContent | safe }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
 {% endfor %}
