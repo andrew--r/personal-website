@@ -5,6 +5,5 @@ tags: tvShows
 title: The Society
 seasons: [1]
 rating: 4
-url: https://www.imdb.com/title/tt8778064/
+url: https://www.imdb.com/title/tt8778064
 ---
-
