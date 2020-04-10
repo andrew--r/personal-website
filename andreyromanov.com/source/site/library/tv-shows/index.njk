@@ -18,7 +18,13 @@ description: A running log of TV shows I’ve watched.
           <tr>
             <td>
               {{ ratingView(tvShow.data.rating) }}
-              <div>{{ "Seasons" if tvShow.data.seasons.length > 1 else "Season" }} {{ tvShow.data.seasons | join(", ") }}</div>
+              <div>
+                {% if tvShow.data.seasons.length > 1 %}
+                  Seasons {{ tvShow.data.seasons | first }}–{{ tvShow.data.seasons | last }}
+                {% else %}
+                  Season {{ tvShow.data.seasons | first }}
+                {% endif %}
+              </div>
               <time datetime="{{ tvShow.date | dateToIsoString }}">
                 {% formatShortDate tvShow.date %}
               </time>

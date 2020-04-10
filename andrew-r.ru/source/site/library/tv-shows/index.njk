@@ -16,9 +16,15 @@ description: Лог просмотренных мной сериалов.
       <tbody>
         {% for tvShow in tvShows %}
           <tr>
-            <td>
+            <td width="6.25rem">
               {{ ratingView(tvShow.data.rating) }}
-              <div>{{ tvShow.data.seasons | join(", ") }} {{ "сезоны" if tvShow.data.seasons.length > 1 else "сезон" }}</div>
+              <div>
+                {% if tvShow.data.seasons.length > 1 %}
+                  {{ tvShow.data.seasons | first }}–{{ tvShow.data.seasons | last }} сезоны
+                {% else %}
+                  {{ tvShow.data.seasons | first }} сезон
+                {% endif %}
+              </div>
               <time datetime="{{ tvShow.date | dateToIsoString }}">
                 {% formatShortDate tvShow.date %}
               </time>

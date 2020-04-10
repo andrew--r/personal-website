@@ -1,7 +1,7 @@
 ---
 date: 2020-01-04T18:00:00.000Z
 permalink: false
-rating: 4
+rating: 3
 tags: tvShows
 title: The Society
 seasons: [1]
