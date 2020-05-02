@@ -20,10 +20,6 @@
     "url": "https://amplifr.com"
   },
   {
-    "name": "Blogtrottr",
-    "url": "https://blogtrottr.com"
-  },
-  {
     "name": "Things",
     "url": "https://culturedcode.com/things"
   },
@@ -32,8 +28,8 @@
     "url": "https://www.notion.so"
   },
   {
-    "name": "NordVPN",
-    "url": "https://nordvpn.com"
+    "name": "Windscribe",
+    "url": "https://windscribe.com"
   },
   {
     "name": "KeePassXC",
@@ -58,5 +54,9 @@
   {
     "name": "LICEcap",
     "url": "https://www.cockos.com/licecap"
+  },
+  {
+    "name": "NetNewsWire",
+    "url": "https://ranchero.com/netnewswire"
   }
 ]
