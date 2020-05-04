@@ -2,6 +2,6 @@
 permalink: false
 tags: books
 title: Atlas Shrugged
-date: 2018-07-11T00:00:00.000Z
+date: 2018-07-11
 url: https://www.goodreads.com/book/show/662
 ---

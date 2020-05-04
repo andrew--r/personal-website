@@ -2,6 +2,6 @@
 permalink: false
 tags: books
 title: Программирование без дураков
-date: 2018-05-13T00:00:00.000Z
+date: 2018-05-13
 url: /notes/weniger-schlecht-programmieren
 ---
