@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: [notes, favouriteNotes]
 title: Сокращение рабочей недели
 description:

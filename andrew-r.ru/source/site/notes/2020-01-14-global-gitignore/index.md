@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Глобальный .gitignore
 description: Глобальный .gitignore помогает не дублировать в локальных .gitignore файлы и директории, относящиеся к системе и инструментам разработки.

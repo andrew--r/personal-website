@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Утилитарные функции
 date: 2017-12-24 23:47:00 +3

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Микрорешения. Проверенный путь к достижению больших целей
 description:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: writing
 title: DNS-level advertisement blocking
 description: Blocking advertisement and trackers at the network level instead of browser is an insanely elegant idea.

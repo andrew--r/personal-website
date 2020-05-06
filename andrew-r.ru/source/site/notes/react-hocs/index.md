@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Почему не стоит использовать компоненты высшего порядка в Реакте
 description:

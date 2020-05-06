@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Визуальная семантика, или чем разметка отличается от стилей
 description:

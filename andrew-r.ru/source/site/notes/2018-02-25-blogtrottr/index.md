@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Blogtrottr
 description: Классный способ читать RSS.

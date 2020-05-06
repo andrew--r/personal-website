@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Как я попробовал отказаться от лент соцсетей и почему эта затея провалилась
 description:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Отдельные стрелки на клавиатуре не нужны
 description:

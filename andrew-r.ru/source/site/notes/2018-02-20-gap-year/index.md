@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Gap Year
 date: 2018-02-20 21:17:00 +3

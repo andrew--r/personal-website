@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: ​​Кастомные элементы ГитХаба
 description:

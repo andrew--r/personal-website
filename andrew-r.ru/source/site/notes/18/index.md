@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Совет самому себе
 date: 2015-11-16 8:31:00 +6

@@ -6,12 +6,18 @@ const { addNunjucksShortcodes } = require('./eleventy/nunjucks-shortcodes');
 const { addTransforms } = require('./eleventy/transforms');
 const buildConfig = require('./build-config');
 
+const LAYOUTS = ['base', 'article'];
+
 const dir = {
   input: buildConfig.dir.eleventySource,
   output: buildConfig.dir.build,
 };
 
 module.exports = (config) => {
+  LAYOUTS.forEach((layout) => {
+    config.addLayoutAlias(layout, `layouts/${layout}.njk`);
+  });
+
   config.setLibrary(
     'md',
     markdownIt({

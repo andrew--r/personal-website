@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: О состоянии потока
 description: Людвиг Быстроновский в одной из своих лекций сказал, что состояние потока — зло.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Разделение состояния и представления
 date: 2018-02-07 18:31:00 +3

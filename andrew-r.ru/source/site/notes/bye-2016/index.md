@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: [notes]
 title: Пока, 2016
 description: Как водится, пора подводить итоги года.

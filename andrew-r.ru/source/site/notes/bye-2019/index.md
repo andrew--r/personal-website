@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: [notes]
 title: Пока, 2019
 description: Фиксирую значимые для меня события за прошедший год и немного рефлексирую.

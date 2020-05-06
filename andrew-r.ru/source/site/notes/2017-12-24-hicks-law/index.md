@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Закон Хика
 description: Чем больше вариантов выбора, тем больше времени нужно на принятие решения.

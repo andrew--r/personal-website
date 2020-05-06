@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: [notes, favouriteNotes]
 title: Почему браузер читает CSS-селекторы справа налево
 description:

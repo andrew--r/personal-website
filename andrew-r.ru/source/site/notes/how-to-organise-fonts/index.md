@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Организация шрифтов в проекте
 description: Как облегчить себе жизнь с помощью простой техники организации шрифтов в проекте

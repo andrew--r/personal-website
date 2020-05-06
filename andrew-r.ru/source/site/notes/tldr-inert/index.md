@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Что за атрибут inert и зачем он нужен?
 description:

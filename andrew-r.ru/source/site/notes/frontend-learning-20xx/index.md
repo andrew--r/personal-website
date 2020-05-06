@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Чему учиться в 20** году, если вы — фронтенд-разработчик
 description:

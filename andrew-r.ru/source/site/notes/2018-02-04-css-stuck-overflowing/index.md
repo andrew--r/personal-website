@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Почему в CSS нет селекторов, зависящих от текущего состояния раскладки
 description: "Было бы удобно иметь псевдоклассы вроде :stuck для элементов с position: sticky или :overflowing для элементов, переполненных содержимым."

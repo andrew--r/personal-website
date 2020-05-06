@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: ​​Автоматизация релизов с помощью semantic-release
 description:

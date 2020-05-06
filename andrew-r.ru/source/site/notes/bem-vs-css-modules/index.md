@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Почему CSS-модули не могут заменить БЭМ
 description: Часто слышу, как разработчики говорят «БЭМ не нужен, ведь есть CSS-модули». Это не так.

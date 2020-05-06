@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Стоит ли тестировать Реакт-компоненты
 description:

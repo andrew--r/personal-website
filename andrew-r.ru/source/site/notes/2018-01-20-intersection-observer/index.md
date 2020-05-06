@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Определяем видимость элемента с IntersectionObserver
 description: IntersectionObserver — это новый браузерный API, позволяющий асинхронно следить за степенью пересечения элемента с вьюпортом или другим элементом.

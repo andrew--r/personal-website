@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Как составить личный финансовый план и как его реализовать
 description:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: javascript:void(0)
 description: Очень распространённая ошибка, ухудшающая доступность интерфейсов.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Последний рабочий день в Авито
 date: 2018-02-02 23:05:00 +3

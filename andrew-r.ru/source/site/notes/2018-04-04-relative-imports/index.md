@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Импорт модулей относительно проекта, а не текущего файла
 description: Как перестать беспокоиться о ../../../ в импортах и начать жить

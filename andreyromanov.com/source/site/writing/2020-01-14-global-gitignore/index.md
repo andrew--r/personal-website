@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: writing
 title: Global .gitignore
 description: Global .gitignore with all your environment-specific exclusions would reduce noise and benefit all your projects

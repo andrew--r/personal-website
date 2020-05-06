@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Не создавайте ожиданий
 description: В чём проблема ожиданий? Они несут разочарование.

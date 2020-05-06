@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: UX установки программ на Windows
 date: 2018-02-03 17:32:00 +3

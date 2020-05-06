@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Почему стоит перейти с поиска Google на DuckDuckGo
 description:

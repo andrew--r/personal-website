@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: writing
 title: Reducing workweek
 description: Thoughts on reducing work week instead of increasing salary.

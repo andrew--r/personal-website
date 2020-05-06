@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Наука сна
 description: Легко читаемый и интересный обзор истории сна и его аспектов, подкреплённый результатами многочисленных исследований

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Как капитализм может помочь техническому отделу большой компании
 description:

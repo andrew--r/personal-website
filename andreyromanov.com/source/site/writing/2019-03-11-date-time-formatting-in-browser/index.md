@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: writing
 title: Date and time formatting in browser
 description: Use Intl.DateTimeFormat instead of third-party libraries for date formatting.

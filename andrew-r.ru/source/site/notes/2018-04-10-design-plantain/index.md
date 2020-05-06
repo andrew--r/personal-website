@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Дизайн-подорожник
 description: Серия статей Александра Быкова с пошаговыми примерами улучшения дизайна городской среды

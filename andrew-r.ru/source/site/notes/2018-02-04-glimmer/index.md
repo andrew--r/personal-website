@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Glimmer
 description: Краткое введение в Glimmer, бывший UI-движок Ember, выросший в отдельный проект.

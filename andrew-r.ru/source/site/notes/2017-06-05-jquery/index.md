@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Почему в проектах 2017 года не нужна jQuery?
 date: 2017-06-05 12:22:00 +3

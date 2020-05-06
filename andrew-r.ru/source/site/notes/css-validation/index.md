@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Индикаторы правильности заполнения полей формы на CSS
 description:

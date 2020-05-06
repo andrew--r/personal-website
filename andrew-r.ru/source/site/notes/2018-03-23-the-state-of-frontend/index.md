@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: О состоянии фронтенд-экосистемы
 description: Принцип единственности ответственности? Не, не слышали.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Как соцсети и интернет мешают учиться и как с этим бороться
 description:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: writing
 title: Learning English with cartoons
 description: Watching cartoons instead of studying formal grammar could improve your English.

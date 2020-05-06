@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: article
 tags: notes
 title: Как упростить тестирование Редакс-редьюсеров
 description:
