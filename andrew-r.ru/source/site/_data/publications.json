@@ -1,0 +1,140 @@
+{
+  "articles": {
+    "forWeb": [
+      {
+        "title": "О PostCSS от его создателя: интервью с Андреем Ситником",
+        "url": "https://forweb.dev/blog/about-postcss"
+      },
+      {
+        "title": "Состояние загружаемых данных",
+        "url": "https://forweb.dev/blog/2020-04-29-data-state/"
+      },
+      {
+        "title": "Когда можно дублировать код?",
+        "url": "https://forweb.dev/blog/2020-05-04-code-duplication/"
+      },
+      {
+        "title": "URL.createObjectURL вместо FileReader.readAsDataURL",
+        "url": "https://forweb.dev/blog/2020-05-05-object-url/"
+      },
+      {
+        "title": "UX drag-and-drop загрузки файлов",
+        "url": "https://forweb.dev/blog/2020-05-05-drag-and-drop-ux/"
+      }
+    ],
+    "frontenderMagazine": [
+      {
+        "title": "О jQuery и Bootstrap: расставляем точки над «i»",
+        "url": "https://frontender.info/whats-wrong-with-jquery-and-bootstrap"
+      }
+    ],
+    "habr": [
+      {
+        "title": "Пишем игрушечную ОС на C#",
+        "url": "https://habr.com/ru/post/176815"
+      },
+      {
+        "title": "30 полезных сервисов для веб-разработчика",
+        "url": "https://habr.com/ru/post/225367/"
+      },
+      {
+        "title": "30 полезных сервисов для веб-разработчиков и дизайнеров v2",
+        "url": "https://habr.com/ru/post/236219"
+      },
+      {
+        "title": "Простой способ растянуть блок на всю высоту экрана, или CSS3 Viewport Units",
+        "url": "https://habr.com/ru/post/243161"
+      },
+      {
+        "title": "Оптимизируем производительность веб-страницы: CSS",
+        "url": "https://habr.com/ru/post/244815"
+      }
+    ],
+    "hexlet": [
+      {
+        "title": "Четыре ошибки новичков в программировании",
+        "url": "https://ru.hexlet.io/blog/posts/4-newbies-mistakes"
+      },
+      {
+        "title": "Основатель For Web Андрей Романов: о разработке, обучении и перспективах фронтенда",
+        "url": "https://ru.hexlet.io/blog/posts/osnovatel-for-web-andrey-romanov-o-razrabotke-obuchenii-i-perspektivah-frontenda"
+      }
+    ]
+  },
+  "translations": {
+    "frontenderMagazine": [
+      {
+        "title": "Путешествие JavaScript в город асинхронности",
+        "url": "https://frontender.info/javascript-goes-to-asynchronous-city"
+      },
+      {
+        "title": "Основы CSS-селекторов на примере котиков",
+        "url": "https://frontender.info/basic-css-selectors-explained-with-cats"
+      },
+      {
+        "title": "ES6 const: иммутабельность ни при чём",
+        "url": "https://frontender.info/const-immutability"
+      }
+    ],
+    "forWeb": [
+      {
+        "title": "Принципы написания однородного HTML",
+        "url": "https://forweb.dev/blog/principles-for-writing-idiomatic-html"
+      },
+      {
+        "title": "8 вещей, которые я хотел бы знать в начале карьеры",
+        "url": "https://forweb.dev/blog/8-things-for-beginners"
+      }
+    ],
+    "habr": [
+      {
+        "title": "Шпаргалка для сравнения классов Twitter Bootstrap и Zurb Foundation",
+        "url": "https://habr.com/ru/post/236491"
+      },
+      {
+        "title": "Интегрируем Git в Sublime Text",
+        "url": "https://habr.com/ru/post/233899"
+      },
+      {
+        "title": "CSS GuideLines, часть 1. Синтаксис и форматирование",
+        "url": "https://habr.com/ru/post/235851"
+      },
+      {
+        "title": "CSS GuideLines, часть 2. Комментирование кода",
+        "url": "https://habr.com/ru/post/235893"
+      },
+      {
+        "title": "CSS GuideLines, часть 3. Именование классов",
+        "url": "https://habr.com/ru/post/236047"
+      },
+      {
+        "title": "5 популярных JavaScript-хаков",
+        "url": "https://habr.com/ru/post/240357"
+      },
+      {
+        "title": "Объекты в JavaScript и создание JS-компонента. Часть 1",
+        "url": "https://habr.com/ru/post/240375"
+      },
+      {
+        "title": "9 основных принципов отзывчивого веб-дизайна",
+        "url": "https://habr.com/ru/post/243247"
+      },
+      {
+        "title": "npm для простых смертных",
+        "url": "https://habr.com/ru/post/243335"
+      },
+      {
+        "title": "Sublime Text для фронтэнд-разработчика",
+        "url": "https://habr.com/ru/post/244681"
+      },
+      {
+        "title": "ES6 в деталях: введение",
+        "url": "https://habr.com/ru/post/257005"
+      },
+      {
+        "title": "Краткая история Всемирной паутины по версии веб-разработчиков",
+        "url": "https://habr.com/ru/post/282267"
+      }
+    ]
+  }
+}

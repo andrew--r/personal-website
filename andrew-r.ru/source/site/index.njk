@@ -11,6 +11,22 @@
 }
 ---
 {% from "components/timeline/index.njk" import timeline %}
+{% macro columnItem(item) %}
+  <p>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  </p>
+{% endmacro %}
+
+{% macro section(title, collection) %}
+  <div class="columns__header">
+    <h3>{{ title }}</h3>
+    {{ columnItem(collection[0]) }}
+  </div>
+
+  {% for item in collection.slice(1) %}
+    {{ columnItem(item) }}
+  {% endfor %}
+{% endmacro %}
 
 <div class="page-home">
   <h1 class="visuallyhidden">Андрей Романов</h1>

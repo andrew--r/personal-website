@@ -1,0 +1,46 @@
+---
+layout: base
+title: Публикации
+description: Авторские статьи и переводы
+---
+{% macro columnItem(item) %}
+  <p>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  </p>
+{% endmacro %}
+
+{% macro section(title, collection) %}
+  <div class="publications__header">
+    <h3>{{ title }}</h3>
+    {{ columnItem(collection[0]) }}
+  </div>
+
+  {% for item in collection.slice(1) %}
+    {{ columnItem(item) }}
+  {% endfor %}
+{% endmacro %}
+
+<div class="content">
+  <h1>{{ title }}</h1>
+
+  <section>
+    <h2>Авторские статьи</h2>
+
+    <div class="publications">
+      {{ section('Хабр', publications.articles.habr) }}
+      {{ section('Хекслет', publications.articles.hexlet) }}
+      {{ section('For Web', publications.articles.forWeb) }}
+      {{ section('Frontender Magazine', publications.articles.frontenderMagazine) }}
+    </div>
+  </section>
+
+  <section>
+    <h2>Переводы</h2>
+
+    <div class="publications">
+      {{ section('Хабр', publications.translations.habr) }}
+      {{ section('Frontender Magazine', publications.translations.frontenderMagazine) }}
+      {{ section('For Web', publications.translations.forWeb) }}
+    </div>
+  </section>
+</div>
