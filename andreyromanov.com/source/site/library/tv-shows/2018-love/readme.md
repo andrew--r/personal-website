@@ -1,5 +1,5 @@
 ---
-date: 2018-11-28T18:00:00.000Z
+date: 2018-11-28
 permalink: false
 tags: tvShows
 title: Love

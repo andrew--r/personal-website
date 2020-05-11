@@ -1,5 +1,5 @@
 ---
-date: 2018-09-05T18:00:00.000Z
+date: 2018-09-05
 permalink: false
 tags: tvShows
 title: The End of the F***ing World

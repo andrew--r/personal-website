@@ -1,5 +1,5 @@
 ---
-date: 2018-09-08T18:00:00.000Z
+date: 2018-09-08
 permalink: false
 tags: tvShows
 title: The Rain

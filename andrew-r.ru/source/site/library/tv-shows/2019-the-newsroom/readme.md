@@ -1,5 +1,5 @@
 ---
-date: 2019-08-04T18:00:00.000Z
+date: 2019-08-04
 permalink: false
 tags: tvShows
 title: The Newsroom

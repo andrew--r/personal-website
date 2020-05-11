@@ -1,5 +1,5 @@
 ---
-date: 2019-11-04T18:00:00.000Z
+date: 2019-11-04
 permalink: false
 tags: tvShows
 title: Elite

@@ -1,5 +1,5 @@
 ---
-date: 2019-06-09T18:00:00.000Z
+date: 2019-06-09
 permalink: false
 tags: tvShows
 title: Чернобыль

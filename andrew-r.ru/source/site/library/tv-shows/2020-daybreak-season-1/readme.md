@@ -1,5 +1,5 @@
 ---
-date: 2020-01-08T18:00:00.000Z
+date: 2020-01-08
 permalink: false
 tags: tvShows
 title: Daybreak

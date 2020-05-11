@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31T18:00:00.000Z
+date: 2018-10-31
 permalink: false
 tags: tvShows
 title: Continuum
