@@ -1,19 +1,17 @@
 ---
-title: Andrey’s Writing
-description: Articles and notes on everything
+title: Заметки Андрея Романова
 permalink: /notes/feed.xml
 ---
-{% set feedSourceUrl = page.url | replace("/feed.xml", "") %}
+{% set feedUrl = page.url | url | absoluteUrl(site.url) %}
 {% set posts = collections.notes %}
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ title }}</title>
-  <subtitle>{{ description }}</subtitle>
-  <link href="{{ page.url }}" rel="self"/>
-  <link href="{{ feedSourceUrl }}"/>
+  <link href="{{ feedUrl }}" rel="self" />
+  <link href="{{ site.url }}" />
   <updated>{{ posts | rssLastUpdatedDate }}</updated>
-  <id>{{ feedSourceUrl }}</id>
+  <id>{{ feedUrl }}</id>
   <author>
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
