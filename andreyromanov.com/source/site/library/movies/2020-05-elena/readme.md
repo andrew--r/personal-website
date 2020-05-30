@@ -1,8 +1,8 @@
 ---
 permalink: false
 tags: movies
-title: Елена
+title: Elena
 date: 2020-05-25
-url: https://www.kinopoisk.ru/film/501958
+url: https://www.imdb.com/title/tt1925421
 rating: 4
 ---
