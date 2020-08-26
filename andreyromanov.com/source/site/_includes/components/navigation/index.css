@@ -1,9 +1,11 @@
-.navigation {
-  all: unset;
+.navigation,
+.navigation__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .navigation__item {
-  all: unset;
   display: inline-block;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
