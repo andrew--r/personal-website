@@ -78,6 +78,10 @@
       {
         "title": "ES6 const: иммутабельность ни при чём",
         "url": "https://frontender.info/const-immutability"
+      },
+      {
+        "title": "Разделы документа в HTML 5.1",
+        "url": "https://frontender.info/document-outlines-in-html-5-1"
       }
     ],
     "forWeb": [
