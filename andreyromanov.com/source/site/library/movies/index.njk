@@ -10,7 +10,7 @@ description: A running log of movies I’ve watched.
 
 {% for year, movies in collections.movies | groupByPublicationYear %}
   <section id="{{ year }}">
-    <h2>{{ year }}</h2>
+    <h2>{{ year }} <span class="text_muted">({% formatNumber movies.length %})</span></h2>
 
     <table class="dated-table">
       <tbody>
