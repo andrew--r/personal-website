@@ -12,3 +12,7 @@ date: 2020-08-20
 Проблему слежки решает [разделение кеша](https://github.com/shivanigithub/http-cache-partitioning/) *(cache partitioning)*: каждый сайт должен иметь собственный кеш для подключаемых на нём ресурсов. Если facebook.com и vk.com подключают с cdnjs.cloudflare.com jQuery одинаковой версии, пользователь при заходе на них скачает jQuery дважды.
 
 Оказывается, в [Safari](https://andydavies.me/blog/2018/09/06/safari-caching-and-3rd-party-resources/) кеш разделён аж с 2013 года. В [Chrome](https://chromestatus.com/feature/5730772021411840) с 77 версии тоже ведётся работа по разделению кеша. Инженеры Mozilla активно помогают в [стандартизации](https://github.com/whatwg/fetch/issues/904) этого поведения.
+
+## Обновление от 7 октября 2020
+
+Разработчики Chrome [объявили](https://developers.google.com/web/updates/2020/10/http-cache-partitioning), что начиная с 86 версии кеш в Chrome тоже будет разделён.
