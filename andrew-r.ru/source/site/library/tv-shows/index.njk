@@ -10,7 +10,7 @@ description: Лог просмотренных мной сериалов
 
 {% for year, tvShows in collections.tvShows | groupByPublicationYear %}
   <section id="{{ year }}">
-    <h2>{{ year }}</h2>
+    <h2>{{ year }} <span class="text_muted">({% formatNumber tvShows.length %})</span></h2>
 
     <table class="dated-table">
       <tbody>
