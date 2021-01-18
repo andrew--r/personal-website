@@ -1,0 +1,7 @@
+.notes-subscription {
+  background-color: var(--color-highlight);
+  margin-top: 2rem;
+  margin: 2rem 0;
+  max-width: var(--readable-line-width);
+  padding: 0.75rem 1rem 1.25rem;
+}

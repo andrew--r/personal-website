@@ -3,6 +3,7 @@ layout: article
 tags: [notes]
 title: Мама
 date: 2020-10-23
+disableNotesSubscriptionWidget: true
 ---
 <p class="subtitle">8 октября внезапно не стало моей мамы.</p>
 

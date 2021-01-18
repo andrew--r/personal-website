@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+{% from "components/notes-subscription/index.njk" import notesSubscription %}
+
 <article class="article" itemtype="http://schema.org/BlogPosting" itemscope="">
   <header  class="article__header">
     {% if cover %}
@@ -17,4 +19,8 @@ layout: base
   <div class="content" itemprop="articleBody">
     {{ content | safe }}
   </div>
+
+  {% if not disableNotesSubscriptionWidget %}
+    {{ notesSubscription() }}
+  {% endif %}
 </article>
