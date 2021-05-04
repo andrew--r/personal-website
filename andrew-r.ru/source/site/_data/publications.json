@@ -3,27 +3,31 @@
     "forWeb": [
       {
         "title": "О PostCSS от его создателя: интервью с Андреем Ситником",
-        "url": "https://forweb.dev/blog/about-postcss"
+        "url": "https://forweb.dev/ru/blog/about-postcss"
       },
       {
         "title": "Состояние загружаемых данных",
-        "url": "https://forweb.dev/blog/2020-04-29-data-state"
+        "url": "https://forweb.dev/ru/blog/2020-04-29-data-state"
       },
       {
         "title": "Когда можно дублировать код?",
-        "url": "https://forweb.dev/blog/2020-05-04-code-duplication"
+        "url": "https://forweb.dev/ru/blog/2020-05-04-code-duplication"
       },
       {
         "title": "URL.createObjectURL вместо FileReader.readAsDataURL",
-        "url": "https://forweb.dev/blog/2020-05-05-object-url"
+        "url": "https://forweb.dev/ru/blog/2020-05-05-object-url"
       },
       {
         "title": "UX drag-and-drop загрузки файлов",
-        "url": "https://forweb.dev/blog/2020-05-05-drag-and-drop-ux"
+        "url": "https://forweb.dev/ru/blog/2020-05-05-drag-and-drop-ux"
       },
       {
         "title": "Считаем время в JavaScript",
-        "url": "https://forweb.dev/blog/js-timing"
+        "url": "https://forweb.dev/ru/blog/js-timing"
+      },
+      {
+        "title": "Неочевидная особенность регулярных выражений в JavaScript",
+        "url": "https://forweb.dev/ru/blog/stateful-regexps/"
       }
     ],
     "frontenderMagazine": [
