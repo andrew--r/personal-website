@@ -1,9 +1,9 @@
 ---
-date: 2021-06-27
+date: 2021-07-02
 permalink: false
 rating: 4
 tags: tvShows
 title: Money Heist
-seasons: [1]
+seasons: [1, 2]
 url: https://www.imdb.com/title/tt6468322/
 ---
