@@ -1,5 +1,8 @@
 {
   "name": "ar-shared-styles",
   "main": "index.css",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "devDependencies": {
+    "ar-shared-styles": "*"
+  }
 }

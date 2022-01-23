@@ -1,0 +1,4 @@
+packages:
+  - 'andreyromanov.com'
+  - 'andrew-r.ru'
+  - 'packages/**'

@@ -1,14 +1,17 @@
 {
   "private": true,
-  "name": "andrew-r.ru-11ty",
+  "name": "andrew-r.ru",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "clean": "rm -rf build",
-    "prestart": "yarn clean && gulp",
+    "prestart": "pnpm clean && gulp",
     "start": "NODE_ICU_DATA=../node_modules/full-icu gulp watch & NODE_ICU_DATA=../node_modules/full-icu eleventy --serve",
-    "prebuild": "yarn clean",
+    "prebuild": "pnpm clean",
     "build": "NODE_ICU_DATA=../node_modules/full-icu gulp && NODE_ICU_DATA=../node_modules/full-icu eleventy && cp _redirects ./build/_redirects"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ar-11ty-transforms": "*",
+    "ar-shared-styles": "*"
+  }
 }

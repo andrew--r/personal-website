@@ -36,7 +36,7 @@ module.exports = (config) => {
 
   return {
     dir,
-    templateFormats: ['njk', 'md', 'png'],
+    templateFormats: ['njk', 'md'],
     passthroughFileCopy: true,
   };
 };
