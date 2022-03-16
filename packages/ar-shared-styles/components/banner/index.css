@@ -27,7 +27,8 @@
   position: relative;
   z-index: 1;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  margin: auto;
 }
 
 .banner a {
