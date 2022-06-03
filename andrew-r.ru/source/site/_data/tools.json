@@ -12,10 +12,6 @@
     "url": "https://prettier.io"
   },
   {
-    "name": "Figma",
-    "url": "https://www.figma.com"
-  },
-  {
     "name": "Amplifr",
     "url": "https://amplifr.com"
   },
@@ -28,8 +24,8 @@
     "url": "https://www.notion.so"
   },
   {
-    "name": "Windscribe",
-    "url": "https://windscribe.com"
+    "name": "Mullvad VPN",
+    "url": "https://mullvad.net"
   },
   {
     "name": "KeePassXC",
@@ -58,5 +54,9 @@
   {
     "name": "NetNewsWire",
     "url": "https://ranchero.com/netnewswire"
+  },
+  {
+    "name": "Workflowy",
+    "url": "https://workflowy.com"
   }
 ]
