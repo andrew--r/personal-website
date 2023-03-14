@@ -3,6 +3,7 @@
   "name": "andreyromanov.com",
   "version": "1.0.0",
   "description": "",
+  "packageManager": "yarn@3.4.1",
   "scripts": {
     "clean": "rm -rf build",
     "prestart": "yarn clean && gulp",

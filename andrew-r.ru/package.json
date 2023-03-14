@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
+  "packageManager": "yarn@3.4.1",
   "scripts": {
     "prebuild": "yarn clean",
     "build": "NODE_ICU_DATA=../node_modules/full-icu gulp && NODE_ICU_DATA=../node_modules/full-icu eleventy && cp _redirects ./build/_redirects",
