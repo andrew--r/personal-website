@@ -1,2 +1,11 @@
 node_modules/
 build/
+
+# Yarn stuff
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

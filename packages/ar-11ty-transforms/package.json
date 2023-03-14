@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "ar-posthtml-utils": "*"
+    "ar-posthtml-utils": "workspace:*",
+    "posthtml": "0.15.1"
   }
 }
