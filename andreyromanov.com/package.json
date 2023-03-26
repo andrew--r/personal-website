@@ -6,28 +6,16 @@
   "packageManager": "yarn@3.4.1",
   "scripts": {
     "clean": "rm -rf build",
-    "prestart": "yarn clean && gulp",
-    "start": "gulp watch & eleventy --serve",
-    "prebuild": "yarn clean",
-    "build": "gulp && eleventy"
+    "start": "yarn clean && eleventy --serve",
+    "build": "yarn clean && eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "2.0.0",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",
-    "autoprefixer": "10.4.14",
-    "gulp": "4.0.2",
-    "gulp-postcss": "9.0.1",
-    "gulp-sourcemaps": "3.0.0",
     "highlight.js": "11.7.0",
     "hljs-alabaster": "1.0.0",
-    "html-minifier": "4.0.0",
-    "markdown-it": "13.0.1",
-    "postcss": "8.4.21",
-    "postcss-csso": "6.0.1",
-    "postcss-easy-import": "4.0.0",
-    "postcss-nested": "6.0.1",
-    "postcss-selector-matches": "4.0.0"
+    "markdown-it": "13.0.1"
   }
 }

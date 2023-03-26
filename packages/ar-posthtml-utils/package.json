@@ -1,7 +1,0 @@
-{
-  "name": "ar-posthtml-utils",
-  "version": "0.0.0",
-  "dependencies": {
-    "hasha": "5.2.2"
-  }
-}

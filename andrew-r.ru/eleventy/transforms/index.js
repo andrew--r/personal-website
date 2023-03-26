@@ -1,10 +1,8 @@
-const { hashAssets, minifyMarkup } = require('ar-11ty-transforms');
+const { compileCss, minifyMarkup } = require('ar-11ty-transforms');
+const path = require('node:path');
 
-function addTransforms(eleventyConfig, dirs) {
-  eleventyConfig.addTransform(
-    'hashAssets',
-    hashAssets({ staticPath: dirs.output }),
-  );
+function addTransforms(eleventyConfig) {
+  compileCss(eleventyConfig, path.resolve(__dirname, '../../source/index.css'));
 
   eleventyConfig.addTransform('minifyMarkup', minifyMarkup());
 }

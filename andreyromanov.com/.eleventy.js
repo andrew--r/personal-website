@@ -9,7 +9,7 @@ const buildConfig = require('./build-config');
 const LAYOUTS = ['base', 'article'];
 
 const dir = {
-  input: buildConfig.dir.eleventySource,
+  input: buildConfig.dir.source,
   output: buildConfig.dir.build,
 };
 
