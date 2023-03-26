@@ -12,7 +12,7 @@
     "build": "gulp && eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "0.11.1",
+    "@11ty/eleventy": "2.0.0",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",
