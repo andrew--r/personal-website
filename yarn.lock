@@ -316,7 +316,7 @@ __metadata:
     gulp: 4.0.2
     gulp-postcss: 8.0.0
     gulp-sourcemaps: 3.0.0
-    highlight.js: 10.5.0
+    highlight.js: 11.7.0
     hljs-alabaster: 1.0.0
     html-minifier: 4.0.0
     markdown-it: 12.0.6
@@ -341,7 +341,7 @@ __metadata:
     gulp: 4.0.2
     gulp-postcss: 8.0.0
     gulp-sourcemaps: 3.0.0
-    highlight.js: 10.5.0
+    highlight.js: 11.7.0
     hljs-alabaster: 1.0.0
     html-minifier: 4.0.0
     markdown-it: 12.0.6
@@ -3136,10 +3136,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"highlight.js@npm:10.5.0":
-  version: 10.5.0
-  resolution: "highlight.js@npm:10.5.0"
-  checksum: 91531f83e7c04f962276ca43e031d5b381a4d8d90801bb4d72cd819b127e5e6175f771ce5a13cdd1b78bd7ce38829173910b129db30f9a386c7cf40fdb9afac0
+"highlight.js@npm:11.7.0":
+  version: 11.7.0
+  resolution: "highlight.js@npm:11.7.0"
+  checksum: 19e3fb8b56f4b361b057a8523b989dfeb6479bbd1e29cec3fac6fa5c78d09927d5fa61b7dba6631fdb57cfdca9b3084aa4da49405ceaf4a67f67beae2ed5b77d
   languageName: node
   linkType: hard
 
