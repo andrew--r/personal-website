@@ -11,7 +11,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "full-icu": "1.3.4",
+    "full-icu": "1.5.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
     "prettier": "2.8.7"
