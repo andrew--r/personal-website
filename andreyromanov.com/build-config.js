@@ -1,9 +1,7 @@
-const path = require('path');
+const path = require('node:path');
 
-const source = path.resolve(__dirname, './source');
 const dir = {
-  source,
-  eleventySource: path.resolve(source, './site'),
+  source: path.resolve(__dirname, './source'),
   build: path.resolve(__dirname, './build'),
 };
 

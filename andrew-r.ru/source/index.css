@@ -1,3 +1,6 @@
+@import 'ar-shared-styles';
+@import './**/*.css';
+
 .page-home {
   @media (min-width: 48em) {
     display: flex;

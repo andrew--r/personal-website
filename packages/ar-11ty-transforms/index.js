@@ -1,7 +1,7 @@
-const { hashAssets } = require('./hash-assets');
+const { compileCss } = require('./compile-css');
 const { minifyMarkup } = require('./minify-markup');
 
 module.exports = {
-  hashAssets,
+  compileCss,
   minifyMarkup,
 };

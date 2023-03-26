@@ -9,7 +9,7 @@ const buildConfig = require('./build-config');
 const LAYOUTS = ['base', 'article'];
 
 const dir = {
-  input: buildConfig.dir.eleventySource,
+  input: buildConfig.dir.source,
   output: buildConfig.dir.build,
 };
 
@@ -33,6 +33,8 @@ module.exports = (config) => {
   addNunjucksFilters(config);
   addNunjucksShortcodes(config);
   addTransforms(config, dir);
+
+  config.addTemplateFormats('css');
 
   return {
     dir,
