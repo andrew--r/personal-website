@@ -4,6 +4,6 @@
   "main": "index.js",
   "dependencies": {
     "ar-posthtml-utils": "workspace:*",
-    "posthtml": "0.15.1"
+    "posthtml": "0.16.6"
   }
 }
