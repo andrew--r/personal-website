@@ -319,7 +319,7 @@ __metadata:
     highlight.js: 11.7.0
     hljs-alabaster: 1.0.0
     html-minifier: 4.0.0
-    markdown-it: 12.0.6
+    markdown-it: 13.0.1
     postcss: 7.0.36
     postcss-csso: 4.0.0
     postcss-easy-import: 3.0.0
@@ -344,7 +344,7 @@ __metadata:
     highlight.js: 11.7.0
     hljs-alabaster: 1.0.0
     html-minifier: 4.0.0
-    markdown-it: 12.0.6
+    markdown-it: 13.0.1
     postcss: 7.0.36
     postcss-csso: 4.0.0
     postcss-easy-import: 3.0.0
@@ -2176,10 +2176,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:~2.1.0":
-  version: 2.1.0
-  resolution: "entities@npm:2.1.0"
-  checksum: a10a877e489586a3f6a691fe49bf3fc4e58f06c8e80522f08214a5150ba457e7017b447d4913a3fa041bda06ee4c92517baa4d8d75373eaa79369e9639225ffd
+"entities@npm:~3.0.1":
+  version: 3.0.1
+  resolution: "entities@npm:3.0.1"
+  checksum: aaf7f12033f0939be91f5161593f853f2da55866db55ccbf72f45430b8977e2b79dbd58c53d0fdd2d00bd7d313b75b0968d09f038df88e308aa97e39f9456572
   languageName: node
   linkType: hard
 
@@ -4016,12 +4016,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkify-it@npm:^3.0.1":
-  version: 3.0.3
-  resolution: "linkify-it@npm:3.0.3"
+"linkify-it@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "linkify-it@npm:4.0.1"
   dependencies:
     uc.micro: ^1.0.1
-  checksum: 31367a4bb70c5bbc9703246236b504b0a8e049bcd4e0de4291fa50f0ebdebf235b5eb54db6493cb0b1319357c6eeafc4324c9f4aa34b0b943d9f2e11a1268fbc
+  checksum: 3e0a29921269c14eb7ac6f5db2da68d4854ea9acca6e9014a323f75f2dd39b197ffab57c1fbd6a906ceb021aad3ee6d7ba7d0181236dd9630ffc452b392f7f71
   languageName: node
   linkType: hard
 
@@ -4241,18 +4241,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:12.0.6":
-  version: 12.0.6
-  resolution: "markdown-it@npm:12.0.6"
+"markdown-it@npm:13.0.1":
+  version: 13.0.1
+  resolution: "markdown-it@npm:13.0.1"
   dependencies:
     argparse: ^2.0.1
-    entities: ~2.1.0
-    linkify-it: ^3.0.1
+    entities: ~3.0.1
+    linkify-it: ^4.0.1
     mdurl: ^1.0.1
     uc.micro: ^1.0.5
   bin:
     markdown-it: bin/markdown-it.js
-  checksum: 5988f3f68ede314fce680f9bfe279f8af7fcaa4b53cce865d654ae5209ed7707f84685fa242cd9898b046e2a5fabdd5fe730f422d677b2ef36f4a00e32eaab22
+  checksum: faf5891d389dc433bcf21d3fbff2009beb044b42b117c92f4848899780ca1a2282a209e3ff4672db4afed726a7248304ec473e6e242a7d6498af7113d31974e7
   languageName: node
   linkType: hard
 
