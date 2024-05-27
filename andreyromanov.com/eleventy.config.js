@@ -1,19 +1,19 @@
-const rss = require('@11ty/eleventy-plugin-rss');
-const markdownIt = require('markdown-it');
-const hljs = require('highlight.js');
-const { addNunjucksFilters } = require('./eleventy/nunjucks-fitlers');
-const { addNunjucksShortcodes } = require('./eleventy/nunjucks-shortcodes');
-const { addTransforms } = require('./eleventy/transforms');
-const buildConfig = require('./build-config');
+import rss from '@11ty/eleventy-plugin-rss';
+import markdownIt from 'markdown-it';
+import hljs from 'highlight.js';
+import { addNunjucksFilters } from './eleventy/nunjucks-fitlers/index.js';
+import { addNunjucksShortcodes } from './eleventy/nunjucks-shortcodes/index.js';
+import { addTransforms } from './eleventy/transforms/index.js';
+import { dir as _dir } from './build-config.js';
 
 const LAYOUTS = ['base', 'article'];
 
 const dir = {
-  input: buildConfig.dir.source,
-  output: buildConfig.dir.build,
+  input: _dir.source,
+  output: _dir.build,
 };
 
-module.exports = (config) => {
+export default async (config) => {
   LAYOUTS.forEach((layout) => {
     config.addLayoutAlias(layout, `layouts/${layout}.njk`);
   });

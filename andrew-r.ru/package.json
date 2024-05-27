@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "yarn@4.2.2",
+  "type": "module",
   "scripts": {
     "build": "yarn clean && NODE_ICU_DATA=../node_modules/full-icu eleventy && cp _redirects ./build/_redirects",
     "clean": "rm -rf build",
     "start": "yarn clean &&  NODE_ICU_DATA=../node_modules/full-icu eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "2.0.1",
+    "@11ty/eleventy": "3.0.0-alpha.10",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",

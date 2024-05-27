@@ -3,8 +3,6 @@ const formatter = new Intl.DateTimeFormat('ru', {
   day: '2-digit',
 });
 
-function formatShortDate(date) {
+export function formatShortDate(date) {
   return formatter.format(date);
 }
-
-module.exports = { formatShortDate };
