@@ -3,14 +3,15 @@
   "name": "andreyromanov.com",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "yarn@4.2.2",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf build",
     "start": "yarn clean && eleventy --serve",
     "build": "yarn clean && eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "2.0.1",
+    "@11ty/eleventy": "3.0.0-alpha.10",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",

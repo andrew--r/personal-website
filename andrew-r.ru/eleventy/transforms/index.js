@@ -1,10 +1,11 @@
-const { compileCss, minifyMarkup } = require('ar-11ty-transforms');
-const path = require('node:path');
+import { compileCss, minifyMarkup } from 'ar-11ty-transforms';
+import { resolve } from 'node:path';
 
-function addTransforms(eleventyConfig) {
-  compileCss(eleventyConfig, path.resolve(__dirname, '../../source/index.css'));
+export function addTransforms(eleventyConfig) {
+  compileCss(
+    eleventyConfig,
+    resolve(import.meta.dirname, '../../source/index.css'),
+  );
 
   eleventyConfig.addTransform('minifyMarkup', minifyMarkup());
 }
-
-module.exports = { addTransforms };

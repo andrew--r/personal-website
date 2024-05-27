@@ -1,4 +1,4 @@
-function groupByPublicationYear(pages) {
+export function groupByPublicationYear(pages) {
   const pagesByYear = new Map();
 
   for (const page of pages) {
@@ -18,5 +18,3 @@ function groupByPublicationYear(pages) {
 
   return sortedYears;
 }
-
-module.exports = { groupByPublicationYear };

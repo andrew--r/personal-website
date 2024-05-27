@@ -1,8 +1,6 @@
-const path = require('node:path');
+import { resolve } from 'node:path';
 
-const dir = {
-  source: path.resolve(__dirname, './source'),
-  build: path.resolve(__dirname, './build'),
+export const dir = {
+  source: resolve(import.meta.dirname, './source'),
+  build: resolve(import.meta.dirname, './build'),
 };
-
-module.exports = { dir };

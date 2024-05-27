@@ -4,8 +4,6 @@ const formatter = new Intl.DateTimeFormat('ru', {
   day: '2-digit',
 });
 
-function formatDate(date) {
+export function formatDate(date) {
   return formatter.format(date);
 }
-
-module.exports = { formatDate };
