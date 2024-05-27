@@ -6,6 +6,8 @@ description: Blocking advertisement and trackers at the network level instead o
 cover:
   alt: Pi-hole dashboard screenshot
   url: assets/cover.png
+  width: 1600
+  height: 941
 date: 2019-12-01
 ---
 
