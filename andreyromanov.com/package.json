@@ -10,12 +10,12 @@
     "build": "yarn clean && eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "2.0.0",
+    "@11ty/eleventy": "2.0.1",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",
-    "highlight.js": "11.7.0",
+    "highlight.js": "11.9.0",
     "hljs-alabaster": "1.0.0",
-    "markdown-it": "13.0.1"
+    "markdown-it": "13.0.2"
   }
 }
