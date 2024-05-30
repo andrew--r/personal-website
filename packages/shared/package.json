@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "imports": {
+    "#11ty/*": "./11ty/*",
+    "#format/*": "./format/*",
+    "#lib/*": "./lib/*",
     "#ui/*": "./ui/*"
   },
   "devDependencies": {
