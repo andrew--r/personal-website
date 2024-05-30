@@ -1,4 +1,5 @@
 @import 'ar-shared-styles';
+@import 'shared/index.css';
 @import './**/*.css';
 
 .page-home {

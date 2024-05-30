@@ -5,18 +5,25 @@
   "description": "",
   "packageManager": "yarn@4.2.2",
   "type": "module",
+  "imports": {
+    "#includes/*": "./source/_includes/*"
+  },
   "scripts": {
-    "build": "yarn clean && NODE_ICU_DATA=../node_modules/full-icu eleventy && cp _redirects ./build/_redirects",
+    "build": "yarn clean && NODE_ICU_DATA=../node_modules/full-icu tsx ../node_modules/@11ty/eleventy/cmd.cjs --config=eleventy.config.ts && cp _redirects ./build/_redirects",
     "clean": "rm -rf build",
-    "start": "yarn clean &&  NODE_ICU_DATA=../node_modules/full-icu eleventy --serve"
+    "start": "yarn clean &&  NODE_ICU_DATA=../node_modules/full-icu tsx ../node_modules/@11ty/eleventy/cmd.cjs --config=eleventy.config.ts --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.0.0-alpha.10",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",
+    "classnames": "2.5.1",
     "highlight.js": "11.9.0",
     "hljs-alabaster": "1.0.0",
-    "markdown-it": "13.0.2"
+    "markdown-it": "13.0.2",
+    "preact": "10.22.0",
+    "preact-render-to-string": "6.5.3",
+    "tsx": "4.11.0"
   }
 }
