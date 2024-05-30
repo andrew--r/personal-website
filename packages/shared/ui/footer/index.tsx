@@ -1,6 +1,12 @@
 import cn from 'classnames';
+import { VNode } from 'preact';
 
-export function Footer({ className }: { className: string }) {
+type Props = {
+  className: string;
+  children: VNode;
+};
+
+export function Footer({ className, children }: Props) {
   return (
     <footer class={cn('footer', className)}>
       <ul class="navigation">
@@ -21,7 +27,7 @@ export function Footer({ className }: { className: string }) {
         </li>
       </ul>
 
-      <p>This website does not track you or collect analytics.</p>
+      {children}
     </footer>
   );
 }

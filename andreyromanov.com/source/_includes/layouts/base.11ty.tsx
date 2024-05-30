@@ -1,8 +1,9 @@
-import { Footer } from '#includes/components/footer/index.11ty.js';
 import { Header } from '#includes/components/header/index.11ty.js';
 import { Preload } from '#includes/preload.js';
 import { EleventyProps } from 'shared/11ty/index.js';
+import { Footer } from 'shared/ui/footer/index.js';
 import { withEleventyContext } from 'shared/11ty/context.js';
+import { Banner } from 'shared/ui/banner/index.js';
 
 function Base({
   alternates,
@@ -10,8 +11,6 @@ function Base({
   cover,
   description,
   langAlternates,
-  page,
-  site,
   title,
 }: EleventyProps) {
   return (
@@ -48,18 +47,14 @@ function Base({
       </head>
 
       <body>
-        <section class="banner">
-          <h1>
-            <a href="https://standwithukraine.com.ua">
-              Stop Putin, Stop war in Ukraine
-            </a>
-          </h1>
-        </section>
+        <Banner text="Stop Putin, Stop war in Ukraine" />
 
         <div class="page">
           <Header className="page__header" />
           <main class="page__content">{content}</main>
-          <Footer className="page__footer" />
+          <Footer className="page__footer">
+            <p>This website does not track you or collect analytics.</p>
+          </Footer>
         </div>
 
         <style>{`
