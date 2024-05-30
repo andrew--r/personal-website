@@ -1,4 +1,4 @@
-import { Header } from '#includes/components/header/index.11ty.js';
+import { Header } from '#includes/components/header/index.js';
 import { Preload } from '#includes/preload.js';
 import { EleventyProps } from 'shared/11ty/index.js';
 import { Footer } from 'shared/ui/footer/index.js';

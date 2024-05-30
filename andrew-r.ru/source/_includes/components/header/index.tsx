@@ -1,5 +1,6 @@
 import cn from 'classnames';
 import { useEleventytyProps } from 'shared/11ty/context.js';
+import { Navigation } from 'shared/ui/navigation';
 
 export function Header({ className }: { className: string }) {
   const { page, site } = useEleventytyProps();
@@ -8,32 +9,30 @@ export function Header({ className }: { className: string }) {
     <header class={cn('header', className, { header_home: page.url === '/' })}>
       <div class="header__title">
         <a class="link link_unstyled" href="/">
-          Andrey Romanov
+          Андрей Романов
         </a>{' '}
         <sup>
-          <a class="caps" href="https://andrew-r.ru">
-            RU
+          <a class="caps" href="https://andreyromanov.com">
+            EN
           </a>
         </sup>
       </div>
 
       <nav>
-        <ul class="navigation">
+        <Navigation>
           {site.navigationLinks.map((navigationLink) => (
-            <li class="navigation__item">
-              <a
-                class={cn('link', {
-                  link_active:
-                    page.url.startsWith(navigationLink.url) &&
-                    (page.url === '/' || navigationLink.url !== '/'),
-                })}
-                href={navigationLink.url}
-              >
-                {navigationLink.title}
-              </a>
-            </li>
+            <a
+              class={cn('link', {
+                link_active:
+                  page.url.startsWith(navigationLink.url) &&
+                  (page.url === '/' || navigationLink.url !== '/'),
+              })}
+              href={navigationLink.url}
+            >
+              {navigationLink.title}
+            </a>
           ))}
-        </ul>
+        </Navigation>
       </nav>
     </header>
   );

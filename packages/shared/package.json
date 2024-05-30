@@ -3,6 +3,9 @@
   "main": "index.ts",
   "version": "0.0.0",
   "type": "module",
+  "imports": {
+    "#ui/*": "./ui/*"
+  },
   "devDependencies": {
     "classnames": "2.5.1",
     "preact": "10.22.0"
