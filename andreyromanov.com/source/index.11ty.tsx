@@ -43,8 +43,8 @@ export default class Page {
               Hi! I’m a front-end web developer. I live in{' '}
               <span class="flag flag_omsk"></span> <s>Omsk, Russia</s> →
               Lisbon, Portugal and work at <s>Innova</s> → <s>Avito</s> →{' '}
-              <s>Sticker.place</s> → Joom. I’m passionate about design and
-              music.
+              <s>Sticker.place</s> → <s>Joom</s> → Datadog. I’m passionate about
+              design and music.
             </p>
           </section>
 

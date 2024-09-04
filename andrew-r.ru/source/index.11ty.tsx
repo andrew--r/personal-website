@@ -41,8 +41,9 @@ export default class Page {
 
             <p>
               Привет! Я живу в <span class="flag flag_omsk"></span> <s>Омске</s>
-               → Лиссабоне и разрабатываю интерфейсы в <s>Innova</s> →{' '}
-              <s>Avito</s> → <s>Sticker.place</s> → Joom. Люблю дизайн и музыку.
+               → Лиссабоне и разрабатываю интерфейсы в <s>Innova</s> →{' '}
+              <s>Avito</s> → <s>Sticker.place</s> → <s>Joom</s> → Datadog. Люблю
+              дизайн и музыку.
             </p>
 
             <p>
@@ -50,7 +51,7 @@ export default class Page {
               из крупнейших русскоязычных{' '}
               <span class="nobr">фронтенд-сообществ</span> в{' '}
               <a href="https://vk.com/forwebdev">
-                <span class="caps">ВК</span>
+                <s class="caps">ВК</s>
               </a>
               , <a href="https://t.me/forwebdev">Телеграме</a> и{' '}
               <a href="https://twitter.com/forwebdev">Твитере</a>.
