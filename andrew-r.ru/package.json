@@ -19,11 +19,11 @@
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",
     "classnames": "2.5.1",
-    "highlight.js": "11.9.0",
+    "highlight.js": "11.10.0",
     "hljs-alabaster": "1.0.0",
     "markdown-it": "13.0.2",
-    "preact": "10.22.0",
-    "preact-render-to-string": "6.5.3",
-    "tsx": "4.11.0"
+    "preact": "10.23.2",
+    "preact-render-to-string": "6.5.10",
+    "tsx": "4.19.0"
   }
 }
