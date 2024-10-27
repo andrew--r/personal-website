@@ -14,16 +14,16 @@
     "start": "yarn clean &&  NODE_ICU_DATA=../node_modules/full-icu tsx ../node_modules/@11ty/eleventy/cmd.cjs --config=eleventy.config.ts --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0-alpha.10",
-    "@11ty/eleventy-plugin-rss": "1.2.0",
+    "@11ty/eleventy": "3.0.0",
+    "@11ty/eleventy-plugin-rss": "2.0.2",
     "ar-11ty-transforms": "workspace:*",
     "ar-shared-styles": "workspace:*",
     "classnames": "2.5.1",
     "highlight.js": "11.10.0",
     "hljs-alabaster": "1.0.0",
     "markdown-it": "13.0.2",
-    "preact": "10.23.2",
-    "preact-render-to-string": "6.5.10",
-    "tsx": "4.19.0"
+    "preact": "10.24.3",
+    "preact-render-to-string": "6.5.11",
+    "tsx": "4.19.2"
   }
 }

@@ -10,7 +10,7 @@ permalink: /notes/feed.xml
   <title>{{ title }}</title>
   <link href="{{ feedUrl }}" rel="self" />
   <link href="{{ site.url }}" />
-  <updated>{{ posts | rssLastUpdatedDate }}</updated>
+  <updated>{{ posts | getNewestCollectionItemDate | dateToRfc822 }}</updated>
   <id>{{ feedUrl }}</id>
   <author>
     <name>{{ site.author.name }}</name>
@@ -21,7 +21,7 @@ permalink: /notes/feed.xml
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | rssDate }}</updated>
+    <updated>{{ post.date | dateToRfc822 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
