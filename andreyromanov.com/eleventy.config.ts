@@ -29,6 +29,7 @@ export default async (config) => {
 
   config.addPlugin(rss);
   config.addPassthroughCopy(`${dir.input}/assets`);
+  config.addPassthroughCopy(`${dir.input}/.well-known`);
 
   config.addExtension(['11ty.jsx', '11ty.ts', '11ty.tsx'], {
     key: '11ty.js',
