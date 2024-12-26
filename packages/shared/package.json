@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "classnames": "2.5.1",
-    "preact": "10.24.3"
+    "preact": "10.25.3"
   }
 }
