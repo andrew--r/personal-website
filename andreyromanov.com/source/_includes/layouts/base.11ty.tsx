@@ -13,6 +13,8 @@ function Base({
   langAlternates,
   title,
 }: EleventyProps) {
+  const formattedTitle = `${title}${title ? ' · ' : ''}Andrey Romanov`;
+
   return (
     <html lang="en">
       <head>
@@ -22,14 +24,11 @@ function Base({
 
         <Preload />
 
-        <title>
-          {title}
-          {title ? <> · </> : null}Andrey Romanov
-        </title>
+        <title>{formattedTitle}</title>
         <meta name="description" content={description} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={formattedTitle} />
         <meta property="og:description" content={description} />
 
         {cover ? <meta property="og:image" content={cover.url} /> : null}
