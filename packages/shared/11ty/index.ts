@@ -28,6 +28,7 @@ export type EleventyProps = {
   alternates?: Alternate[];
   content?: EleventyContent;
   cover?: {
+    hidden?: boolean;
     url: string;
     alt: string;
     width?: number;
@@ -36,6 +37,7 @@ export type EleventyProps = {
   collections: Record<string, CollectionItem[]>;
   date: Date;
   description: string;
+  disableNotesSubscriptionWidget?: boolean;
   langAlternates?: LangAlternate[];
   page: Page;
   site: {

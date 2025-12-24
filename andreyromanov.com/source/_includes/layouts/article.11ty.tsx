@@ -17,7 +17,7 @@ export default class ArticleLayout {
         itemscope
       >
         <header class="article__header">
-          {cover ? (
+          {cover && !cover.hidden ? (
             <img
               src={cover.url}
               alt={cover.alt}
