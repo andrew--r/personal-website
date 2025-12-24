@@ -12,7 +12,15 @@
 }
 
 ul {
+  position: relative;
   list-style: none;
+
+  li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    opacity: 0.3;
+  }
 }
 
 li:not(:last-child) {
