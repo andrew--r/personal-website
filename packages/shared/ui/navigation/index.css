@@ -10,3 +10,7 @@
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
+
+.navigation__item::before {
+  display: none;
+}
