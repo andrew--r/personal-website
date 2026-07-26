@@ -46,8 +46,6 @@ function Base({
       </head>
 
       <body>
-        <Banner text="Нет войне в Украине" />
-
         <div class="page">
           <Header className="page__header" />
           <main class="page__content">{content}</main>
